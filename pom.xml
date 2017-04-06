@@ -50,5 +50,10 @@
 			<artifactId>jersey-core</artifactId>
 			<version>1.19</version>
 		</dependency>
-	</dependencies>
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>bootstrap</artifactId>
+			<version>4.0.0-alpha.6-1</version>
+		</dependency>
+ </dependencies>
 </project>
