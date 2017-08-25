@@ -1,0 +1,3110 @@
+{
+    "meta": {
+        "code": 200,
+        "response_time": {
+            "time": 0.5,
+            "measure": "seconds"
+        },
+        "init_time": {
+            "time": 0.025,
+            "measure": "seconds"
+        }
+    },
+    "notifications": {
+        "type": "notifications",
+        "unread_count": {
+            "comments": 1,
+            "toasts": 0,
+            "friends": 0,
+            "messages": 0,
+            "others": 10,
+            "news": 76
+        }
+    },
+    "response": {
+        "pagination": {
+            "since_url": "https:\/\/api.untappd.com\/v4\/beer\/checkins\/75231?min_id=491797886",
+            "next_url": "https:\/\/api.untappd.com\/v4\/beer\/checkins\/75231?max_id=479430295",
+            "max_id": 479430295
+        },
+        "checkins": {
+            "count": 25,
+            "items": [{
+                "checkin_id": 491797886,
+                "created_at": "Wed, 16 Aug 2017 00:58:57 +0000",
+                "checkin_comment": "",
+                "rating_score": 4,
+                "user": {
+                    "uid": 4284262,
+                    "user_name": "rcaban77",
+                    "first_name": "Richard",
+                    "last_name": "C.",
+                    "location": "",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/bba66a142413ea9bbfb22b75e9999717_100x100.jpeg",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": {
+                    "venue_id": 76076,
+                    "venue_name": "Enegren Brewing Company",
+                    "venue_slug": "enegren-brewing-company",
+                    "primary_category": "Nightlife Spot",
+                    "parent_category_id": "4d4b7105d754a06376d81259",
+                    "categories": {
+                        "count": 1,
+                        "items": [{
+                            "category_name": "Brewery",
+                            "category_id": "50327c8591d4c4b30a586d5d",
+                            "is_primary": true
+                        }]
+                    },
+                    "location": {
+                        "venue_address": "680 Flinn Ave",
+                        "venue_city": "Moorpark",
+                        "venue_state": "CA",
+                        "venue_country": "United States",
+                        "lat": 34.283,
+                        "lng": -118.871
+                    },
+                    "contact": {
+                        "twitter": "",
+                        "venue_url": "http:\/\/enegrenbrewing.com"
+                    },
+                    "foursquare": {
+                        "foursquare_id": "4e0f5ce81f6e9964ea2c5387",
+                        "foursquare_url": "http:\/\/4sq.com\/mtA6FP"
+                    },
+                    "venue_icon": {
+                        "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_64.png",
+                        "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_88.png",
+                        "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_88.png"
+                    },
+                    "is_verified": false
+                },
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 0,
+                    "count": 0,
+                    "auth_toast": false,
+                    "items": []
+                },
+                "media": {
+                    "count": 1,
+                    "items": [{
+                        "photo_id": 135278136,
+                        "photo": {
+                            "photo_img_sm": "https:\/\/untappd.akamaized.net\/photo\/2017_08_16\/605eca5b2d9919b7d2a2b22acbc78230_100x100.jpeg",
+                            "photo_img_md": "https:\/\/untappd.akamaized.net\/photo\/2017_08_16\/605eca5b2d9919b7d2a2b22acbc78230_320x320.jpeg",
+                            "photo_img_lg": "https:\/\/untappd.akamaized.net\/photo\/2017_08_16\/605eca5b2d9919b7d2a2b22acbc78230_640x640.jpeg",
+                            "photo_img_og": "https:\/\/untappd.akamaized.net\/photo\/2017_08_16\/605eca5b2d9919b7d2a2b22acbc78230_raw.jpeg"
+                        }
+                    }]
+                },
+                "source": {
+                    "app_name": "Untappd for iPhone - (V2)",
+                    "app_website": "http:\/\/untpd.it\/iphoneapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 0,
+                    "items": []
+                }
+            }, {
+                "checkin_id": 491316709,
+                "created_at": "Mon, 14 Aug 2017 05:35:11 +0000",
+                "checkin_comment": "Thank for the crowler share Christina O.",
+                "rating_score": 3.75,
+                "user": {
+                    "uid": 128308,
+                    "user_name": "MA",
+                    "first_name": "Mike",
+                    "last_name": "A.",
+                    "location": "Glendale, CA",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "Hoppy beers & old school punk rock ☠️",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/b315fd5173a76bd932a7d8e71feca88f_100x100.gif",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": {
+                    "venue_id": 560676,
+                    "venue_name": "Glendale Community College",
+                    "venue_slug": "glendale-community-college",
+                    "primary_category": "College & University",
+                    "parent_category_id": "4d4b7105d754a06372d81259",
+                    "categories": {
+                        "count": 1,
+                        "items": [{
+                            "category_name": "Community College",
+                            "category_id": "4bf58dd8d48988d1a2941735",
+                            "is_primary": true
+                        }]
+                    },
+                    "location": {
+                        "venue_address": "1500 N Verdugo Rd",
+                        "venue_city": "Glendale",
+                        "venue_state": "CA",
+                        "venue_country": "United States",
+                        "lat": 34.1669,
+                        "lng": -118.228
+                    },
+                    "contact": {
+                        "twitter": "",
+                        "venue_url": ""
+                    },
+                    "foursquare": {
+                        "foursquare_id": "45d05059f964a520a9421fe3",
+                        "foursquare_url": "http:\/\/4sq.com\/bckBUX"
+                    },
+                    "venue_icon": {
+                        "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/education\/communitycollege_bg_64.png",
+                        "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/education\/communitycollege_bg_88.png",
+                        "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/education\/communitycollege_bg_88.png"
+                    },
+                    "is_verified": false
+                },
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 6,
+                    "count": 5,
+                    "auth_toast": false,
+                    "items": [{
+                        "uid": 141329,
+                        "user": {
+                            "uid": 141329,
+                            "user_name": "Burnin",
+                            "first_name": "burnin",
+                            "last_name": "",
+                            "bio": "",
+                            "location": "Simi Valley, CA",
+                            "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/5d299151d7a9180f789d997622975aff_thumb.JPG",
+                            "account_type": "user",
+                            "venue_details": [],
+                            "brewery_details": []
+                        },
+                        "like_id": 409092956,
+                        "like_owner": false,
+                        "created_at": "Tue, 15 Aug 2017 03:15:14 +0000"
+                    }, {
+                        "uid": 534645,
+                        "user": {
+                            "uid": 534645,
+                            "user_name": "The_Jerk",
+                            "first_name": "Chris",
+                            "last_name": "G.",
+                            "bio": "Beer.Xbox.Women.Hops.My German Shepherds.Beards(Women too).Hot Pockets & Zima IG:teh.jerk",
+                            "location": "LAX",
+                            "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/8a9000c5beaf6fe56158ccc0e6c6c298_100x100.jpeg",
+                            "account_type": "user",
+                            "venue_details": [],
+                            "brewery_details": []
+                        },
+                        "like_id": 408892527,
+                        "like_owner": false,
+                        "created_at": "Mon, 14 Aug 2017 14:23:40 +0000"
+                    }, {
+                        "uid": 82277,
+                        "user": {
+                            "uid": 82277,
+                            "user_name": "TYoungren",
+                            "first_name": "Trevor",
+                            "last_name": "Y.",
+                            "bio": "",
+                            "location": "Lakewood,CA",
+                            "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/67a24f6c4dd2bea1de73a14fc19416b7_100x100.jpg",
+                            "account_type": "user",
+                            "venue_details": [],
+                            "brewery_details": []
+                        },
+                        "like_id": 408838341,
+                        "like_owner": false,
+                        "created_at": "Mon, 14 Aug 2017 06:13:14 +0000"
+                    }, {
+                        "uid": 91630,
+                        "user": {
+                            "uid": 91630,
+                            "user_name": "MANTLE",
+                            "first_name": "MANTLE",
+                            "last_name": "",
+                            "bio": "\"I woke up this morning and I got myself a beer. The future's uncertain and the end is always near\" Jim Morrison",
+                            "location": "SACTOWN ",
+                            "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/ffd3b5ce54c6b3dfeca66228fa134ee1_thumb.jpg",
+                            "account_type": "user",
+                            "venue_details": [],
+                            "brewery_details": []
+                        },
+                        "like_id": 408837383,
+                        "like_owner": false,
+                        "created_at": "Mon, 14 Aug 2017 06:04:46 +0000"
+                    }, {
+                        "uid": 866849,
+                        "user": {
+                            "uid": 866849,
+                            "user_name": "Tukiluka",
+                            "first_name": "James",
+                            "last_name": "R.",
+                            "bio": "English bitters, ales, porters, and stouts; Belgian ales; and American craft IPAs. Snap: tukiluka",
+                            "location": "North East Los Angeles",
+                            "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/bfeccb2a6efb92b7a2eb2afb75a256c7_100x100.jpg",
+                            "account_type": "user",
+                            "venue_details": [],
+                            "brewery_details": []
+                        },
+                        "like_id": 408835737,
+                        "like_owner": false,
+                        "created_at": "Mon, 14 Aug 2017 05:47:13 +0000"
+                    }]
+                },
+                "media": {
+                    "count": 1,
+                    "items": [{
+                        "photo_id": 135106234,
+                        "photo": {
+                            "photo_img_sm": "https:\/\/untappd.akamaized.net\/photo\/2017_08_14\/3bc79cbebd3f1c0808dc54945e2d89b5_100x100.jpg",
+                            "photo_img_md": "https:\/\/untappd.akamaized.net\/photo\/2017_08_14\/3bc79cbebd3f1c0808dc54945e2d89b5_320x320.jpg",
+                            "photo_img_lg": "https:\/\/untappd.akamaized.net\/photo\/2017_08_14\/3bc79cbebd3f1c0808dc54945e2d89b5_640x640.jpg",
+                            "photo_img_og": "https:\/\/untappd.akamaized.net\/photo\/2017_08_14\/3bc79cbebd3f1c0808dc54945e2d89b5_raw.jpg"
+                        }
+                    }]
+                },
+                "source": {
+                    "app_name": "Untappd for iPhone - (V2)",
+                    "app_website": "http:\/\/untpd.it\/iphoneapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 0,
+                    "items": []
+                }
+            }, {
+                "checkin_id": 491299128,
+                "created_at": "Mon, 14 Aug 2017 03:06:16 +0000",
+                "checkin_comment": "",
+                "rating_score": 3.5,
+                "user": {
+                    "uid": 288566,
+                    "user_name": "Punkindrublik",
+                    "first_name": "PunkinDrublik",
+                    "last_name": "",
+                    "location": "Your Mom's House",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "I'm parched.",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/d3cae92c42dc3c374dc321541d5c19e4_100x100.jpg",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": {
+                    "venue_id": 2697185,
+                    "venue_name": "BierBrats",
+                    "venue_slug": "bierbrats",
+                    "primary_category": "Nightlife Spot",
+                    "parent_category_id": "4d4b7105d754a06376d81259",
+                    "categories": {
+                        "count": 2,
+                        "items": [{
+                            "category_name": "Beer Garden",
+                            "category_id": "4bf58dd8d48988d117941735",
+                            "is_primary": true
+                        }, {
+                            "category_name": "Hot Dog Joint",
+                            "category_id": "4bf58dd8d48988d16f941735",
+                            "is_primary": false
+                        }]
+                    },
+                    "location": {
+                        "venue_address": "325 Borchard Dr",
+                        "venue_city": "Ventura",
+                        "venue_state": "CA",
+                        "venue_country": "United States",
+                        "lat": 34.2708,
+                        "lng": -119.261
+                    },
+                    "contact": {
+                        "twitter": "",
+                        "venue_url": ""
+                    },
+                    "foursquare": {
+                        "foursquare_id": "4fca40a5e4b0de804200024c",
+                        "foursquare_url": "http:\/\/4sq.com\/JI9Tw9"
+                    },
+                    "venue_icon": {
+                        "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_64.png",
+                        "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png",
+                        "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png"
+                    },
+                    "is_verified": false
+                },
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 0,
+                    "count": 0,
+                    "auth_toast": false,
+                    "items": []
+                },
+                "media": {
+                    "count": 0,
+                    "items": []
+                },
+                "source": {
+                    "app_name": "Untappd for Android - (V2)",
+                    "app_website": "http:\/\/untpd.it\/androidapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 1,
+                    "items": [{
+                        "badge_id": 34720,
+                        "user_badge_id": 215262316,
+                        "badge_name": "Middle of the Road (Level 16)",
+                        "badge_description": "Looking for more kick than a session beer, but want to be able to stay for a few rounds? You have to keep it in the middle. That's 80 beers with an ABV greater than 5% and less than 10%. Try 5 more Level 17!",
+                        "created_at": "Mon, 14 Aug 2017 03:06:17 +0000",
+                        "badge_image": {
+                            "sm": "https:\/\/untappd.akamaized.net\/badges\/bdg_middle-of-the-road_sm.jpg",
+                            "md": "https:\/\/untappd.akamaized.net\/badges\/bdg_middle-of-the-road_md.jpg",
+                            "lg": "https:\/\/untappd.akamaized.net\/badges\/bdg_middle-of-the-road_lg.jpg"
+                        }
+                    }]
+                }
+            }, {
+                "checkin_id": 490103006,
+                "created_at": "Sat, 12 Aug 2017 03:41:11 +0000",
+                "checkin_comment": "Dark but light",
+                "rating_score": 3.75,
+                "user": {
+                    "uid": 974580,
+                    "user_name": "Mr-Engineer",
+                    "first_name": "Tom",
+                    "last_name": "F.",
+                    "location": "",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/aa8b7b29f14fd0f26738f79748492061_100x100.jpeg",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": {
+                    "venue_id": 2697185,
+                    "venue_name": "BierBrats",
+                    "venue_slug": "bierbrats",
+                    "primary_category": "Nightlife Spot",
+                    "parent_category_id": "4d4b7105d754a06376d81259",
+                    "categories": {
+                        "count": 2,
+                        "items": [{
+                            "category_name": "Beer Garden",
+                            "category_id": "4bf58dd8d48988d117941735",
+                            "is_primary": true
+                        }, {
+                            "category_name": "Hot Dog Joint",
+                            "category_id": "4bf58dd8d48988d16f941735",
+                            "is_primary": false
+                        }]
+                    },
+                    "location": {
+                        "venue_address": "325 Borchard Dr",
+                        "venue_city": "Ventura",
+                        "venue_state": "CA",
+                        "venue_country": "United States",
+                        "lat": 34.2708,
+                        "lng": -119.261
+                    },
+                    "contact": {
+                        "twitter": "",
+                        "venue_url": ""
+                    },
+                    "foursquare": {
+                        "foursquare_id": "4fca40a5e4b0de804200024c",
+                        "foursquare_url": "http:\/\/4sq.com\/JI9Tw9"
+                    },
+                    "venue_icon": {
+                        "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_64.png",
+                        "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png",
+                        "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png"
+                    },
+                    "is_verified": false
+                },
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 0,
+                    "count": 0,
+                    "auth_toast": false,
+                    "items": []
+                },
+                "media": {
+                    "count": 0,
+                    "items": []
+                },
+                "source": {
+                    "app_name": "Untappd for Android - (V2)",
+                    "app_website": "http:\/\/untpd.it\/androidapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 0,
+                    "items": []
+                }
+            }, {
+                "checkin_id": 490102370,
+                "created_at": "Sat, 12 Aug 2017 03:39:29 +0000",
+                "checkin_comment": "",
+                "rating_score": 3.75,
+                "user": {
+                    "uid": 740830,
+                    "user_name": "Beccalove",
+                    "first_name": "Becca",
+                    "last_name": "L.",
+                    "location": "Ventura, CA",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/78e659171ead9ab5d7348a039a8e0c5f_100x100.jpeg",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": {
+                    "venue_id": 2697185,
+                    "venue_name": "BierBrats",
+                    "venue_slug": "bierbrats",
+                    "primary_category": "Nightlife Spot",
+                    "parent_category_id": "4d4b7105d754a06376d81259",
+                    "categories": {
+                        "count": 2,
+                        "items": [{
+                            "category_name": "Beer Garden",
+                            "category_id": "4bf58dd8d48988d117941735",
+                            "is_primary": true
+                        }, {
+                            "category_name": "Hot Dog Joint",
+                            "category_id": "4bf58dd8d48988d16f941735",
+                            "is_primary": false
+                        }]
+                    },
+                    "location": {
+                        "venue_address": "325 Borchard Dr",
+                        "venue_city": "Ventura",
+                        "venue_state": "CA",
+                        "venue_country": "United States",
+                        "lat": 34.2708,
+                        "lng": -119.261
+                    },
+                    "contact": {
+                        "twitter": "",
+                        "venue_url": ""
+                    },
+                    "foursquare": {
+                        "foursquare_id": "4fca40a5e4b0de804200024c",
+                        "foursquare_url": "http:\/\/4sq.com\/JI9Tw9"
+                    },
+                    "venue_icon": {
+                        "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_64.png",
+                        "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png",
+                        "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/beergarden_bg_88.png"
+                    },
+                    "is_verified": false
+                },
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 1,
+                    "count": 1,
+                    "auth_toast": false,
+                    "items": [{
+                        "uid": 974580,
+                        "user": {
+                            "uid": 974580,
+                            "user_name": "Mr-Engineer",
+                            "first_name": "Tom",
+                            "last_name": "F.",
+                            "bio": "",
+                            "location": "",
+                            "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/aa8b7b29f14fd0f26738f79748492061_100x100.jpeg",
+                            "account_type": "user",
+                            "venue_details": [],
+                            "brewery_details": []
+                        },
+                        "like_id": 407793154,
+                        "like_owner": false,
+                        "created_at": "Sat, 12 Aug 2017 03:41:21 +0000"
+                    }]
+                },
+                "media": {
+                    "count": 0,
+                    "items": []
+                },
+                "source": {
+                    "app_name": "Untappd for Android - (V2)",
+                    "app_website": "http:\/\/untpd.it\/androidapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 0,
+                    "items": []
+                }
+            }, {
+                "checkin_id": 489352147,
+                "created_at": "Thu, 10 Aug 2017 21:35:47 +0000",
+                "checkin_comment": "",
+                "rating_score": 3.75,
+                "user": {
+                    "uid": 1579716,
+                    "user_name": "bassnfly",
+                    "first_name": "Jeff",
+                    "last_name": "J.",
+                    "location": "",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/gravatar.com\/avatar\/c2f811ada12ad3013bc301c217423811?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": {
+                    "venue_id": 487839,
+                    "venue_name": "The HandleBar Barbershop",
+                    "venue_slug": "the-handlebar-barbershop",
+                    "primary_category": "Shop & Service",
+                    "parent_category_id": "4d4b7105d754a06378d81259",
+                    "categories": {
+                        "count": 1,
+                        "items": [{
+                            "category_name": "Salon \/ Barbershop",
+                            "category_id": "4bf58dd8d48988d110951735",
+                            "is_primary": true
+                        }]
+                    },
+                    "location": {
+                        "venue_address": "2219 E Thousand Oaks Blvd #201",
+                        "venue_city": "Thousand Oaks",
+                        "venue_state": "CA",
+                        "venue_country": "United States",
+                        "lat": 34.1751,
+                        "lng": -118.845
+                    },
+                    "contact": {
+                        "twitter": "",
+                        "venue_url": "http:\/\/www.thehandlebarbarbershop.com"
+                    },
+                    "foursquare": {
+                        "foursquare_id": "4fa9d52be4b02a5ef2ef3a26",
+                        "foursquare_url": "http:\/\/4sq.com\/IYtYsx"
+                    },
+                    "venue_icon": {
+                        "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/shops\/salon_barber_bg_64.png",
+                        "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/shops\/salon_barber_bg_88.png",
+                        "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/shops\/salon_barber_bg_88.png"
+                    },
+                    "is_verified": false
+                },
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 0,
+                    "count": 0,
+                    "auth_toast": false,
+                    "items": []
+                },
+                "media": {
+                    "count": 0,
+                    "items": []
+                },
+                "source": {
+                    "app_name": "Untappd for Android - (V2)",
+                    "app_website": "http:\/\/untpd.it\/androidapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 1,
+                    "items": [{
+                        "badge_id": 3809,
+                        "user_badge_id": 213980342,
+                        "badge_name": "Bar Explorer (Level 27)",
+                        "badge_description": "Your quest to quench your thirst leaves no stone unturned! That's at least 135 distinct venues!",
+                        "created_at": "Thu, 10 Aug 2017 21:35:48 +0000",
+                        "badge_image": {
+                            "sm": "https:\/\/untappd.akamaized.net\/badges\/bdg_goingPlaces_sm.jpg",
+                            "md": "https:\/\/untappd.akamaized.net\/badges\/bdg_goingPlaces_md.jpg",
+                            "lg": "https:\/\/untappd.akamaized.net\/badges\/bdg_goingPlaces_lg.jpg"
+                        }
+                    }]
+                }
+            }, {
+                "checkin_id": 488257550,
+                "created_at": "Mon, 07 Aug 2017 01:25:55 +0000",
+                "checkin_comment": "",
+                "rating_score": 3,
+                "user": {
+                    "uid": 3135252,
+                    "user_name": "dangerousblue",
+                    "first_name": "Crystal",
+                    "last_name": "L.",
+                    "location": "Bend",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/gravatar.com\/avatar\/5d8f64aa5275eaf7c6c5cd7c084bbe98?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": [],
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 2,
+                    "count": 2,
+                    "auth_toast": false,
+                    "items": [{
+                        "uid": 3135252,
+                        "user": {
+                            "uid": 3135252,
+                            "user_name": "dangerousblue",
+                            "first_name": "Crystal",
+                            "last_name": "L.",
+                            "bio": "",
+                            "location": "Bend",
+                            "user_avatar": "https:\/\/gravatar.com\/avatar\/5d8f64aa5275eaf7c6c5cd7c084bbe98?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                            "account_type": "user",
+                            "venue_details": [],
+                            "brewery_details": []
+                        },
+                        "like_id": 406092161,
+                        "like_owner": false,
+                        "created_at": "Mon, 07 Aug 2017 05:33:28 +0000"
+                    }, {
+                        "uid": 594446,
+                        "user": {
+                            "uid": 594446,
+                            "user_name": "Nezumiiro",
+                            "first_name": "Brooks",
+                            "last_name": "H.",
+                            "bio": "Beer nuts in Portland Oregon!",
+                            "location": " Portland, OR",
+                            "user_avatar": "https:\/\/gravatar.com\/avatar\/70c02e277681c85769bacb0d3c559537?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                            "account_type": "user",
+                            "venue_details": [],
+                            "brewery_details": []
+                        },
+                        "like_id": 406039529,
+                        "like_owner": false,
+                        "created_at": "Mon, 07 Aug 2017 01:35:16 +0000"
+                    }]
+                },
+                "media": {
+                    "count": 0,
+                    "items": []
+                },
+                "source": {
+                    "app_name": "Untappd for iPhone - (V2)",
+                    "app_website": "http:\/\/untpd.it\/iphoneapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 2,
+                    "items": [{
+                        "badge_id": 186,
+                        "user_badge_id": 213241021,
+                        "badge_name": "Local Flavor",
+                        "badge_description": "Supporting local breweries is what helps the craft beer scene grow. You obviously know this since you’re enjoying the local flavor! Be sure to always drink locally.",
+                        "created_at": "Mon, 07 Aug 2017 01:25:55 +0000",
+                        "badge_image": {
+                            "sm": "https:\/\/untappd.akamaized.net\/badges\/bdg_LocalFlavor_sm.jpg",
+                            "md": "https:\/\/untappd.akamaized.net\/badges\/bdg_LocalFlavor_md.jpg",
+                            "lg": "https:\/\/untappd.akamaized.net\/badges\/bdg_LocalFlavor_lg.jpg"
+                        }
+                    }, {
+                        "badge_id": 5115,
+                        "user_badge_id": 213241023,
+                        "badge_name": "Wheel of Styles",
+                        "badge_description": "Round and round the wheel goes! Which style you’ll be drinking, nobody knows! Your desire to explore different styles is inspiring. Keep it up! That's a check-in to at least 5 different styles. Try 5 more for Level 2!",
+                        "created_at": "Mon, 07 Aug 2017 01:25:55 +0000",
+                        "badge_image": {
+                            "sm": "https:\/\/untappd.akamaized.net\/badges\/bdg_WheelofStyles_sm.jpg",
+                            "md": "https:\/\/untappd.akamaized.net\/badges\/bdg_WheelofStyles_md.jpg",
+                            "lg": "https:\/\/untappd.akamaized.net\/badges\/bdg_WheelofStyles_lg.jpg"
+                        }
+                    }]
+                }
+            }, {
+                "checkin_id": 488250244,
+                "created_at": "Mon, 07 Aug 2017 01:08:57 +0000",
+                "checkin_comment": "",
+                "rating_score": 3.75,
+                "user": {
+                    "uid": 473347,
+                    "user_name": "theefreaklet",
+                    "first_name": "April",
+                    "last_name": "M.",
+                    "location": "Redding,Ca",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/e511e06c2959ef4e2e2f160fc0c64885_thumb.jpg",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": {
+                    "venue_id": 76076,
+                    "venue_name": "Enegren Brewing Company",
+                    "venue_slug": "enegren-brewing-company",
+                    "primary_category": "Nightlife Spot",
+                    "parent_category_id": "4d4b7105d754a06376d81259",
+                    "categories": {
+                        "count": 1,
+                        "items": [{
+                            "category_name": "Brewery",
+                            "category_id": "50327c8591d4c4b30a586d5d",
+                            "is_primary": true
+                        }]
+                    },
+                    "location": {
+                        "venue_address": "680 Flinn Ave",
+                        "venue_city": "Moorpark",
+                        "venue_state": "CA",
+                        "venue_country": "United States",
+                        "lat": 34.283,
+                        "lng": -118.871
+                    },
+                    "contact": {
+                        "twitter": "",
+                        "venue_url": "http:\/\/enegrenbrewing.com"
+                    },
+                    "foursquare": {
+                        "foursquare_id": "4e0f5ce81f6e9964ea2c5387",
+                        "foursquare_url": "http:\/\/4sq.com\/mtA6FP"
+                    },
+                    "venue_icon": {
+                        "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_64.png",
+                        "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_88.png",
+                        "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_88.png"
+                    },
+                    "is_verified": false
+                },
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 1,
+                    "count": 1,
+                    "auth_toast": false,
+                    "items": [{
+                        "uid": 3135252,
+                        "user": {
+                            "uid": 3135252,
+                            "user_name": "dangerousblue",
+                            "first_name": "Crystal",
+                            "last_name": "L.",
+                            "bio": "",
+                            "location": "Bend",
+                            "user_avatar": "https:\/\/gravatar.com\/avatar\/5d8f64aa5275eaf7c6c5cd7c084bbe98?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                            "account_type": "user",
+                            "venue_details": [],
+                            "brewery_details": []
+                        },
+                        "like_id": 406035417,
+                        "like_owner": false,
+                        "created_at": "Mon, 07 Aug 2017 01:25:09 +0000"
+                    }]
+                },
+                "media": {
+                    "count": 1,
+                    "items": [{
+                        "photo_id": 134073752,
+                        "photo": {
+                            "photo_img_sm": "https:\/\/untappd.akamaized.net\/photo\/2017_08_07\/b65b8fcb88caef7523cc0e181c6ba00f_100x100.jpeg",
+                            "photo_img_md": "https:\/\/untappd.akamaized.net\/photo\/2017_08_07\/b65b8fcb88caef7523cc0e181c6ba00f_320x320.jpeg",
+                            "photo_img_lg": "https:\/\/untappd.akamaized.net\/photo\/2017_08_07\/b65b8fcb88caef7523cc0e181c6ba00f_640x640.jpeg",
+                            "photo_img_og": "https:\/\/untappd.akamaized.net\/photo\/2017_08_07\/b65b8fcb88caef7523cc0e181c6ba00f_raw.jpeg"
+                        }
+                    }]
+                },
+                "source": {
+                    "app_name": "Untappd for iPhone - (V2)",
+                    "app_website": "http:\/\/untpd.it\/iphoneapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 0,
+                    "items": []
+                }
+            }, {
+                "checkin_id": 488245832,
+                "created_at": "Mon, 07 Aug 2017 01:00:09 +0000",
+                "checkin_comment": "Solid, caramel, ligbt tanic, and easy sugar!",
+                "rating_score": 3.5,
+                "user": {
+                    "uid": 594446,
+                    "user_name": "Nezumiiro",
+                    "first_name": "Brooks",
+                    "last_name": "H.",
+                    "location": " Portland, OR",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "Beer nuts in Portland Oregon!",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/gravatar.com\/avatar\/70c02e277681c85769bacb0d3c559537?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": {
+                    "venue_id": 76076,
+                    "venue_name": "Enegren Brewing Company",
+                    "venue_slug": "enegren-brewing-company",
+                    "primary_category": "Nightlife Spot",
+                    "parent_category_id": "4d4b7105d754a06376d81259",
+                    "categories": {
+                        "count": 1,
+                        "items": [{
+                            "category_name": "Brewery",
+                            "category_id": "50327c8591d4c4b30a586d5d",
+                            "is_primary": true
+                        }]
+                    },
+                    "location": {
+                        "venue_address": "680 Flinn Ave",
+                        "venue_city": "Moorpark",
+                        "venue_state": "CA",
+                        "venue_country": "United States",
+                        "lat": 34.283,
+                        "lng": -118.871
+                    },
+                    "contact": {
+                        "twitter": "",
+                        "venue_url": "http:\/\/enegrenbrewing.com"
+                    },
+                    "foursquare": {
+                        "foursquare_id": "4e0f5ce81f6e9964ea2c5387",
+                        "foursquare_url": "http:\/\/4sq.com\/mtA6FP"
+                    },
+                    "venue_icon": {
+                        "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_64.png",
+                        "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_88.png",
+                        "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_88.png"
+                    },
+                    "is_verified": false
+                },
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 0,
+                    "count": 0,
+                    "auth_toast": false,
+                    "items": []
+                },
+                "media": {
+                    "count": 1,
+                    "items": [{
+                        "photo_id": 134072527,
+                        "photo": {
+                            "photo_img_sm": "https:\/\/untappd.akamaized.net\/photo\/2017_08_07\/ecd912acd1204b2feca71efcc1238a1c_100x100.jpeg",
+                            "photo_img_md": "https:\/\/untappd.akamaized.net\/photo\/2017_08_07\/ecd912acd1204b2feca71efcc1238a1c_320x320.jpeg",
+                            "photo_img_lg": "https:\/\/untappd.akamaized.net\/photo\/2017_08_07\/ecd912acd1204b2feca71efcc1238a1c_640x640.jpeg",
+                            "photo_img_og": "https:\/\/untappd.akamaized.net\/photo\/2017_08_07\/ecd912acd1204b2feca71efcc1238a1c_raw.jpeg"
+                        }
+                    }]
+                },
+                "source": {
+                    "app_name": "Untappd for iPhone - (V2)",
+                    "app_website": "http:\/\/untpd.it\/iphoneapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 0,
+                    "items": []
+                }
+            }, {
+                "checkin_id": 488075239,
+                "created_at": "Sun, 06 Aug 2017 20:04:40 +0000",
+                "checkin_comment": "Although it's an amber not malty at all.  Go German style brewing.",
+                "rating_score": 4,
+                "user": {
+                    "uid": 3442422,
+                    "user_name": "BeerIAm7",
+                    "first_name": "Emily",
+                    "last_name": "M.",
+                    "location": "Monterey, CA",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "Beer is good.  Cider is good.  Libations are good.  I love to enjoy what I'm drinking.",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/gravatar.com\/avatar\/0e2a6401c65fcea14ab4cbdf6a019128?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": [],
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 0,
+                    "count": 0,
+                    "auth_toast": false,
+                    "items": []
+                },
+                "media": {
+                    "count": 1,
+                    "items": [{
+                        "photo_id": 134019522,
+                        "photo": {
+                            "photo_img_sm": "https:\/\/untappd.akamaized.net\/photo\/2017_08_06\/17b62122877a29e090c777df30031d27_100x100.jpg",
+                            "photo_img_md": "https:\/\/untappd.akamaized.net\/photo\/2017_08_06\/17b62122877a29e090c777df30031d27_320x320.jpg",
+                            "photo_img_lg": "https:\/\/untappd.akamaized.net\/photo\/2017_08_06\/17b62122877a29e090c777df30031d27_640x640.jpg",
+                            "photo_img_og": "https:\/\/untappd.akamaized.net\/photo\/2017_08_06\/17b62122877a29e090c777df30031d27_raw.jpg"
+                        }
+                    }]
+                },
+                "source": {
+                    "app_name": "Untappd for iPhone - (V2)",
+                    "app_website": "http:\/\/untpd.it\/iphoneapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 0,
+                    "items": []
+                }
+            }, {
+                "checkin_id": 487734441,
+                "created_at": "Sun, 06 Aug 2017 01:15:12 +0000",
+                "checkin_comment": "",
+                "rating_score": 3.5,
+                "user": {
+                    "uid": 685750,
+                    "user_name": "iamwheatking",
+                    "first_name": "Paul",
+                    "last_name": "W.",
+                    "location": "",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/gravatar.com\/avatar\/81ce85da2670de5d180f0960736bf66c?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": {
+                    "venue_id": 717819,
+                    "venue_name": "Fishing with Dynamite",
+                    "venue_slug": "fishing-with-dynamite",
+                    "primary_category": "Food",
+                    "parent_category_id": "4d4b7105d754a06374d81259",
+                    "categories": {
+                        "count": 1,
+                        "items": [{
+                            "category_name": "Seafood Restaurant",
+                            "category_id": "4bf58dd8d48988d1ce941735",
+                            "is_primary": true
+                        }]
+                    },
+                    "location": {
+                        "venue_address": "1148 Manhattan Ave",
+                        "venue_city": "Manhattan Beach",
+                        "venue_state": "CA",
+                        "venue_country": "United States",
+                        "lat": 33.8853,
+                        "lng": -118.411
+                    },
+                    "contact": {
+                        "twitter": "",
+                        "venue_url": "http:\/\/www.eatfwd.com"
+                    },
+                    "foursquare": {
+                        "foursquare_id": "51789409498eb7ff7d0fda32",
+                        "foursquare_url": "http:\/\/4sq.com\/15IkvWD"
+                    },
+                    "venue_icon": {
+                        "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/seafood_bg_64.png",
+                        "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/seafood_bg_88.png",
+                        "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/seafood_bg_88.png"
+                    },
+                    "is_verified": false
+                },
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 1,
+                    "count": 1,
+                    "auth_toast": false,
+                    "items": [{
+                        "uid": 1510284,
+                        "user": {
+                            "uid": 1510284,
+                            "user_name": "mattshipman",
+                            "first_name": "Matt",
+                            "last_name": "S.",
+                            "bio": "",
+                            "location": "",
+                            "user_avatar": "https:\/\/gravatar.com\/avatar\/d80c9e6705961139f4dc236b4554edfc?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                            "account_type": "user",
+                            "venue_details": [],
+                            "brewery_details": []
+                        },
+                        "like_id": 406341027,
+                        "like_owner": false,
+                        "created_at": "Tue, 08 Aug 2017 02:06:14 +0000"
+                    }]
+                },
+                "media": {
+                    "count": 1,
+                    "items": [{
+                        "photo_id": 133902685,
+                        "photo": {
+                            "photo_img_sm": "https:\/\/untappd.akamaized.net\/photo\/2017_08_06\/3ec281ec47bd052008bd65d2dc7275ca_100x100.jpg",
+                            "photo_img_md": "https:\/\/untappd.akamaized.net\/photo\/2017_08_06\/3ec281ec47bd052008bd65d2dc7275ca_320x320.jpg",
+                            "photo_img_lg": "https:\/\/untappd.akamaized.net\/photo\/2017_08_06\/3ec281ec47bd052008bd65d2dc7275ca_640x640.jpg",
+                            "photo_img_og": "https:\/\/untappd.akamaized.net\/photo\/2017_08_06\/3ec281ec47bd052008bd65d2dc7275ca_raw.jpg"
+                        }
+                    }]
+                },
+                "source": {
+                    "app_name": "Untappd for iPhone - (V2)",
+                    "app_website": "http:\/\/untpd.it\/iphoneapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 0,
+                    "items": []
+                }
+            }, {
+                "checkin_id": 486505592,
+                "created_at": "Fri, 04 Aug 2017 03:13:59 +0000",
+                "checkin_comment": "",
+                "rating_score": 3.5,
+                "user": {
+                    "uid": 2938106,
+                    "user_name": "SigmaBrew",
+                    "first_name": "Grant",
+                    "last_name": "P.",
+                    "location": "",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/gravatar.com\/avatar\/81936ef6529be7989c6fe595bb39fab8?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": {
+                    "venue_id": 76076,
+                    "venue_name": "Enegren Brewing Company",
+                    "venue_slug": "enegren-brewing-company",
+                    "primary_category": "Nightlife Spot",
+                    "parent_category_id": "4d4b7105d754a06376d81259",
+                    "categories": {
+                        "count": 1,
+                        "items": [{
+                            "category_name": "Brewery",
+                            "category_id": "50327c8591d4c4b30a586d5d",
+                            "is_primary": true
+                        }]
+                    },
+                    "location": {
+                        "venue_address": "680 Flinn Ave",
+                        "venue_city": "Moorpark",
+                        "venue_state": "CA",
+                        "venue_country": "United States",
+                        "lat": 34.283,
+                        "lng": -118.871
+                    },
+                    "contact": {
+                        "twitter": "",
+                        "venue_url": "http:\/\/enegrenbrewing.com"
+                    },
+                    "foursquare": {
+                        "foursquare_id": "4e0f5ce81f6e9964ea2c5387",
+                        "foursquare_url": "http:\/\/4sq.com\/mtA6FP"
+                    },
+                    "venue_icon": {
+                        "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_64.png",
+                        "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_88.png",
+                        "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_88.png"
+                    },
+                    "is_verified": false
+                },
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 0,
+                    "count": 0,
+                    "auth_toast": false,
+                    "items": []
+                },
+                "media": {
+                    "count": 0,
+                    "items": []
+                },
+                "source": {
+                    "app_name": "Untappd for iPhone - (V2)",
+                    "app_website": "http:\/\/untpd.it\/iphoneapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 1,
+                    "items": [{
+                        "badge_id": 79,
+                        "user_badge_id": 211939946,
+                        "badge_name": "Brew Traveler",
+                        "badge_description": "You're exploring this great country the best way possible, one delicious beer at a time! That's one beer while in at least 5 states or countries.",
+                        "created_at": "Fri, 04 Aug 2017 03:14:00 +0000",
+                        "badge_image": {
+                            "sm": "https:\/\/untappd.akamaized.net\/badges\/bdg_traveller_sm.jpg",
+                            "md": "https:\/\/untappd.akamaized.net\/badges\/bdg_traveller_md.jpg",
+                            "lg": "https:\/\/untappd.akamaized.net\/badges\/bdg_traveller_lg.jpg"
+                        }
+                    }]
+                }
+            }, {
+                "checkin_id": 486457846,
+                "created_at": "Fri, 04 Aug 2017 01:38:58 +0000",
+                "checkin_comment": "pretty damn tasty",
+                "rating_score": 4.25,
+                "user": {
+                    "uid": 2236391,
+                    "user_name": "VictorOliver",
+                    "first_name": "Victor",
+                    "last_name": "P.",
+                    "location": "",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/019ae0c8e0bbd4750ca45f30644815e9_100x100.jpg",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": [],
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 0,
+                    "count": 0,
+                    "auth_toast": false,
+                    "items": []
+                },
+                "media": {
+                    "count": 1,
+                    "items": [{
+                        "photo_id": 133470554,
+                        "photo": {
+                            "photo_img_sm": "https:\/\/untappd.akamaized.net\/photo\/2017_08_04\/f2ee9767dc69f6e1de18bfbded8e26f0_100x100.jpg",
+                            "photo_img_md": "https:\/\/untappd.akamaized.net\/photo\/2017_08_04\/f2ee9767dc69f6e1de18bfbded8e26f0_320x320.jpg",
+                            "photo_img_lg": "https:\/\/untappd.akamaized.net\/photo\/2017_08_04\/f2ee9767dc69f6e1de18bfbded8e26f0_640x640.jpg",
+                            "photo_img_og": "https:\/\/untappd.akamaized.net\/photo\/2017_08_04\/f2ee9767dc69f6e1de18bfbded8e26f0_raw.jpg"
+                        }
+                    }]
+                },
+                "source": {
+                    "app_name": "Untappd for iPhone - (V2)",
+                    "app_website": "http:\/\/untpd.it\/iphoneapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 1,
+                    "items": [{
+                        "badge_id": 34706,
+                        "user_badge_id": 211895944,
+                        "badge_name": "Middle of the Road (Level 2)",
+                        "badge_description": "Looking for more kick than a session beer, but want to be able to stay for a few rounds? You have to keep it in the middle. That's 10 beers with an ABV greater than 5% and less than 10%. Try 5 more Level 3!",
+                        "created_at": "Fri, 04 Aug 2017 01:38:59 +0000",
+                        "badge_image": {
+                            "sm": "https:\/\/untappd.akamaized.net\/badges\/bdg_middle-of-the-road_sm.jpg",
+                            "md": "https:\/\/untappd.akamaized.net\/badges\/bdg_middle-of-the-road_md.jpg",
+                            "lg": "https:\/\/untappd.akamaized.net\/badges\/bdg_middle-of-the-road_lg.jpg"
+                        }
+                    }]
+                }
+            }, {
+                "checkin_id": 486304374,
+                "created_at": "Thu, 03 Aug 2017 21:58:33 +0000",
+                "checkin_comment": "",
+                "rating_score": 4,
+                "user": {
+                    "uid": 299182,
+                    "user_name": "lonlonmilklover",
+                    "first_name": "Mike",
+                    "last_name": "W.",
+                    "location": "Southern California",
+                    "url": "https:\/\/www.twitch.tv\/lonlonmilklover",
+                    "is_supporter": 0,
+                    "bio": "A gamer, musician, & homebrewer who hopes to someday forgive those responsible for canceling Firefly.",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/3e948a532137229a15906ff1f923ae8f_thumb.jpg",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": [],
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 0,
+                    "count": 0,
+                    "auth_toast": false,
+                    "items": []
+                },
+                "media": {
+                    "count": 0,
+                    "items": []
+                },
+                "source": {
+                    "app_name": "Untappd for iPhone - (V2)",
+                    "app_website": "http:\/\/untpd.it\/iphoneapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 0,
+                    "items": []
+                }
+            }, {
+                "checkin_id": 486080952,
+                "created_at": "Thu, 03 Aug 2017 02:42:38 +0000",
+                "checkin_comment": "Nice mouthfeel.",
+                "rating_score": 3.75,
+                "user": {
+                    "uid": 430556,
+                    "user_name": "ehucek",
+                    "first_name": "Evan",
+                    "last_name": "H.",
+                    "location": "",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/a2e515aef6faf4dc72c391e836a63d0f_thumb.jpg",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": {
+                    "venue_id": 5335434,
+                    "venue_name": "Finney's Crafthouse",
+                    "venue_slug": "finneys-crafthouse-and-kitchen",
+                    "primary_category": "Food",
+                    "parent_category_id": "4d4b7105d754a06374d81259",
+                    "categories": {
+                        "count": 3,
+                        "items": [{
+                            "category_name": "Gastropub",
+                            "category_id": "4bf58dd8d48988d155941735",
+                            "is_primary": true
+                        }, {
+                            "category_name": "Bar",
+                            "category_id": "4bf58dd8d48988d116941735",
+                            "is_primary": false
+                        }, {
+                            "category_name": "Restaurant",
+                            "category_id": "4bf58dd8d48988d1c4941735",
+                            "is_primary": false
+                        }]
+                    },
+                    "location": {
+                        "venue_address": "982 S Westlake Blvd,#2",
+                        "venue_city": "Westlake Village",
+                        "venue_state": "CA",
+                        "venue_country": "United States",
+                        "lat": 34.1529,
+                        "lng": -118.827
+                    },
+                    "contact": {
+                        "twitter": "",
+                        "venue_url": ""
+                    },
+                    "foursquare": {
+                        "foursquare_id": "57ca2bb3498e41a4a470c86d",
+                        "foursquare_url": "http:\/\/4sq.com\/2cmMxkp"
+                    },
+                    "venue_icon": {
+                        "sm": "https:\/\/untappd.akamaized.net\/venuelogos\/venue_5335434_b2844bd4_bg_64.png",
+                        "md": "https:\/\/untappd.akamaized.net\/venuelogos\/venue_5335434_b2844bd4_bg_88.png",
+                        "lg": "https:\/\/untappd.akamaized.net\/venuelogos\/venue_5335434_b2844bd4_bg_88.png"
+                    },
+                    "is_verified": true
+                },
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 1,
+                    "count": 1,
+                    "auth_toast": false,
+                    "items": [{
+                        "uid": 528288,
+                        "user": {
+                            "uid": 528288,
+                            "user_name": "RichardV",
+                            "first_name": "Richard",
+                            "last_name": "V.",
+                            "bio": "black guy drinks craft!",
+                            "location": "Dublin, OH",
+                            "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/ee34229a8b3e26ccd750db3375004d8b_thumb.jpg",
+                            "account_type": "user",
+                            "venue_details": [],
+                            "brewery_details": []
+                        },
+                        "like_id": 404198505,
+                        "like_owner": false,
+                        "created_at": "Thu, 03 Aug 2017 16:40:13 +0000"
+                    }]
+                },
+                "media": {
+                    "count": 1,
+                    "items": [{
+                        "photo_id": 133336411,
+                        "photo": {
+                            "photo_img_sm": "https:\/\/untappd.akamaized.net\/photo\/2017_08_03\/7011d12d885cebd26382150885534365_100x100.jpg",
+                            "photo_img_md": "https:\/\/untappd.akamaized.net\/photo\/2017_08_03\/7011d12d885cebd26382150885534365_320x320.jpg",
+                            "photo_img_lg": "https:\/\/untappd.akamaized.net\/photo\/2017_08_03\/7011d12d885cebd26382150885534365_640x640.jpg",
+                            "photo_img_og": "https:\/\/untappd.akamaized.net\/photo\/2017_08_03\/7011d12d885cebd26382150885534365_raw.jpg"
+                        }
+                    }]
+                },
+                "source": {
+                    "app_name": "Untappd for iPhone - (V2)",
+                    "app_website": "http:\/\/untpd.it\/iphoneapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 0,
+                    "items": []
+                }
+            }, {
+                "checkin_id": 485603149,
+                "created_at": "Tue, 01 Aug 2017 19:48:04 +0000",
+                "checkin_comment": "",
+                "rating_score": 3.25,
+                "user": {
+                    "uid": 1088161,
+                    "user_name": "OlivierB",
+                    "first_name": "Olivier",
+                    "last_name": "B.",
+                    "location": "",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/48914ff0c250648a7a7ed9a89a094fb3_100x100.jpg",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": {
+                    "venue_id": 717819,
+                    "venue_name": "Fishing with Dynamite",
+                    "venue_slug": "fishing-with-dynamite",
+                    "primary_category": "Food",
+                    "parent_category_id": "4d4b7105d754a06374d81259",
+                    "categories": {
+                        "count": 1,
+                        "items": [{
+                            "category_name": "Seafood Restaurant",
+                            "category_id": "4bf58dd8d48988d1ce941735",
+                            "is_primary": true
+                        }]
+                    },
+                    "location": {
+                        "venue_address": "1148 Manhattan Ave",
+                        "venue_city": "Manhattan Beach",
+                        "venue_state": "CA",
+                        "venue_country": "United States",
+                        "lat": 33.8853,
+                        "lng": -118.411
+                    },
+                    "contact": {
+                        "twitter": "",
+                        "venue_url": "http:\/\/www.eatfwd.com"
+                    },
+                    "foursquare": {
+                        "foursquare_id": "51789409498eb7ff7d0fda32",
+                        "foursquare_url": "http:\/\/4sq.com\/15IkvWD"
+                    },
+                    "venue_icon": {
+                        "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/seafood_bg_64.png",
+                        "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/seafood_bg_88.png",
+                        "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/seafood_bg_88.png"
+                    },
+                    "is_verified": false
+                },
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 1,
+                    "count": 1,
+                    "auth_toast": false,
+                    "items": [{
+                        "uid": 2286792,
+                        "user": {
+                            "uid": 2286792,
+                            "user_name": "khafeken",
+                            "first_name": "Kurt",
+                            "last_name": "H.",
+                            "bio": "",
+                            "location": "",
+                            "user_avatar": "https:\/\/gravatar.com\/avatar\/9d82d32f494a56c804b6b2a08c229380?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                            "account_type": "user",
+                            "venue_details": [],
+                            "brewery_details": []
+                        },
+                        "like_id": 405153642,
+                        "like_owner": false,
+                        "created_at": "Sat, 05 Aug 2017 15:07:50 +0000"
+                    }]
+                },
+                "media": {
+                    "count": 0,
+                    "items": []
+                },
+                "source": {
+                    "app_name": "Untappd for iPhone - (V2)",
+                    "app_website": "http:\/\/untpd.it\/iphoneapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 0,
+                    "items": []
+                }
+            }, {
+                "checkin_id": 484676044,
+                "created_at": "Sun, 30 Jul 2017 01:33:05 +0000",
+                "checkin_comment": "",
+                "rating_score": 4.5,
+                "user": {
+                    "uid": 4095409,
+                    "user_name": "mlamb45",
+                    "first_name": "Matthew",
+                    "last_name": "",
+                    "location": "",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/gravatar.com\/avatar\/e7df1217c1fc61a06d3ca89eb1c74163?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": [],
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 0,
+                    "count": 0,
+                    "auth_toast": false,
+                    "items": []
+                },
+                "media": {
+                    "count": 0,
+                    "items": []
+                },
+                "source": {
+                    "app_name": "Untappd for iPhone - (V2)",
+                    "app_website": "http:\/\/untpd.it\/iphoneapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 2,
+                    "items": [{
+                        "badge_id": 5115,
+                        "user_badge_id": 210633325,
+                        "badge_name": "Wheel of Styles",
+                        "badge_description": "Round and round the wheel goes! Which style you’ll be drinking, nobody knows! Your desire to explore different styles is inspiring. Keep it up! That's a check-in to at least 5 different styles. Try 5 more for Level 2!",
+                        "created_at": "Sun, 30 Jul 2017 01:33:05 +0000",
+                        "badge_image": {
+                            "sm": "https:\/\/untappd.akamaized.net\/badges\/bdg_WheelofStyles_sm.jpg",
+                            "md": "https:\/\/untappd.akamaized.net\/badges\/bdg_WheelofStyles_md.jpg",
+                            "lg": "https:\/\/untappd.akamaized.net\/badges\/bdg_WheelofStyles_lg.jpg"
+                        }
+                    }, {
+                        "badge_id": 406,
+                        "user_badge_id": 210633326,
+                        "badge_name": "Land of the Free",
+                        "badge_description": "You’ve pledged allegiance, and now it’s time to enjoy some beer! Now remember, not all American beer is fizzy and yellow. That’s 5 different beers from a brewery in the United States. Try 5 more for Level 2.",
+                        "created_at": "Sun, 30 Jul 2017 01:33:05 +0000",
+                        "badge_image": {
+                            "sm": "https:\/\/untappd.akamaized.net\/badges\/bdg_america_sm.jpg",
+                            "md": "https:\/\/untappd.akamaized.net\/badges\/bdg_america_md.jpg",
+                            "lg": "https:\/\/untappd.akamaized.net\/badges\/bdg_america_lg.jpg"
+                        }
+                    }]
+                }
+            }, {
+                "checkin_id": 483175640,
+                "created_at": "Thu, 27 Jul 2017 17:26:41 +0000",
+                "checkin_comment": "",
+                "rating_score": 3.25,
+                "user": {
+                    "uid": 509721,
+                    "user_name": "joshdhughes",
+                    "first_name": "Josh",
+                    "last_name": "H.",
+                    "location": "",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/61ad8b4157a72c937d2f8bdeb5dd0bc4_100x100.jpg",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": {
+                    "venue_id": 487839,
+                    "venue_name": "The HandleBar Barbershop",
+                    "venue_slug": "the-handlebar-barbershop",
+                    "primary_category": "Shop & Service",
+                    "parent_category_id": "4d4b7105d754a06378d81259",
+                    "categories": {
+                        "count": 1,
+                        "items": [{
+                            "category_name": "Salon \/ Barbershop",
+                            "category_id": "4bf58dd8d48988d110951735",
+                            "is_primary": true
+                        }]
+                    },
+                    "location": {
+                        "venue_address": "2219 E Thousand Oaks Blvd #201",
+                        "venue_city": "Thousand Oaks",
+                        "venue_state": "CA",
+                        "venue_country": "United States",
+                        "lat": 34.1751,
+                        "lng": -118.845
+                    },
+                    "contact": {
+                        "twitter": "",
+                        "venue_url": "http:\/\/www.thehandlebarbarbershop.com"
+                    },
+                    "foursquare": {
+                        "foursquare_id": "4fa9d52be4b02a5ef2ef3a26",
+                        "foursquare_url": "http:\/\/4sq.com\/IYtYsx"
+                    },
+                    "venue_icon": {
+                        "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/shops\/salon_barber_bg_64.png",
+                        "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/shops\/salon_barber_bg_88.png",
+                        "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/shops\/salon_barber_bg_88.png"
+                    },
+                    "is_verified": false
+                },
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 0,
+                    "count": 0,
+                    "auth_toast": false,
+                    "items": []
+                },
+                "media": {
+                    "count": 1,
+                    "items": [{
+                        "photo_id": 132353779,
+                        "photo": {
+                            "photo_img_sm": "https:\/\/untappd.akamaized.net\/photo\/2017_07_27\/5a7b7b81e0d777cdd5c444f1366d2ff3_100x100.jpg",
+                            "photo_img_md": "https:\/\/untappd.akamaized.net\/photo\/2017_07_27\/5a7b7b81e0d777cdd5c444f1366d2ff3_320x320.jpg",
+                            "photo_img_lg": "https:\/\/untappd.akamaized.net\/photo\/2017_07_27\/5a7b7b81e0d777cdd5c444f1366d2ff3_640x640.jpg",
+                            "photo_img_og": "https:\/\/untappd.akamaized.net\/photo\/2017_07_27\/5a7b7b81e0d777cdd5c444f1366d2ff3_raw.jpg"
+                        }
+                    }]
+                },
+                "source": {
+                    "app_name": "Untappd for iPhone - (V2)",
+                    "app_website": "http:\/\/untpd.it\/iphoneapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 1,
+                    "items": [{
+                        "badge_id": 794,
+                        "user_badge_id": 209615996,
+                        "badge_name": "Photogenic Brew (Level 9)",
+                        "badge_description": "It takes the perfect amount light, the right framing and a touch of creative love to get the perfect picture of your brew. Now it’s time to drink it! That’s 45 check-ins with a photo. ",
+                        "created_at": "Thu, 27 Jul 2017 17:26:42 +0000",
+                        "badge_image": {
+                            "sm": "https:\/\/untappd.akamaized.net\/badges\/bdg_beertography_sm.jpg",
+                            "md": "https:\/\/untappd.akamaized.net\/badges\/bdg_beertography_md.jpg",
+                            "lg": "https:\/\/untappd.akamaized.net\/badges\/bdg_beertography_lg.jpg"
+                        }
+                    }]
+                }
+            }, {
+                "checkin_id": 482998768,
+                "created_at": "Thu, 27 Jul 2017 00:04:20 +0000",
+                "checkin_comment": "",
+                "rating_score": 3.75,
+                "user": {
+                    "uid": 2322390,
+                    "user_name": "scottsideleau",
+                    "first_name": "Scott",
+                    "last_name": "S.",
+                    "location": "Rhode Island",
+                    "url": "http:\/\/scott.sideleau.com",
+                    "is_supporter": 0,
+                    "bio": "I'm a computer systems & software engineer for a U.S. Navy research lab that loves food, computers, throwing heavy thing",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/968c12894c5a530043e7a748822ce259_100x100.jpg",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": {
+                    "venue_id": 487839,
+                    "venue_name": "The HandleBar Barbershop",
+                    "venue_slug": "the-handlebar-barbershop",
+                    "primary_category": "Shop & Service",
+                    "parent_category_id": "4d4b7105d754a06378d81259",
+                    "categories": {
+                        "count": 1,
+                        "items": [{
+                            "category_name": "Salon \/ Barbershop",
+                            "category_id": "4bf58dd8d48988d110951735",
+                            "is_primary": true
+                        }]
+                    },
+                    "location": {
+                        "venue_address": "2219 E Thousand Oaks Blvd #201",
+                        "venue_city": "Thousand Oaks",
+                        "venue_state": "CA",
+                        "venue_country": "United States",
+                        "lat": 34.1751,
+                        "lng": -118.845
+                    },
+                    "contact": {
+                        "twitter": "",
+                        "venue_url": "http:\/\/www.thehandlebarbarbershop.com"
+                    },
+                    "foursquare": {
+                        "foursquare_id": "4fa9d52be4b02a5ef2ef3a26",
+                        "foursquare_url": "http:\/\/4sq.com\/IYtYsx"
+                    },
+                    "venue_icon": {
+                        "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/shops\/salon_barber_bg_64.png",
+                        "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/shops\/salon_barber_bg_88.png",
+                        "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/shops\/salon_barber_bg_88.png"
+                    },
+                    "is_verified": false
+                },
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 1,
+                    "count": 1,
+                    "auth_toast": false,
+                    "items": [{
+                        "uid": 281457,
+                        "user": {
+                            "uid": 281457,
+                            "user_name": "darnrob",
+                            "first_name": "Robert",
+                            "last_name": "H.",
+                            "bio": "Geek, beer drinker",
+                            "location": "Aiea, HI",
+                            "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/ab2e29e7ec56f89b08d0f41d80172551_100x100.jpg",
+                            "account_type": "user",
+                            "venue_details": [],
+                            "brewery_details": []
+                        },
+                        "like_id": 402165235,
+                        "like_owner": false,
+                        "created_at": "Sat, 29 Jul 2017 02:48:36 +0000"
+                    }]
+                },
+                "media": {
+                    "count": 0,
+                    "items": []
+                },
+                "source": {
+                    "app_name": "Untappd for Android - (V2)",
+                    "app_website": "http:\/\/untpd.it\/androidapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 1,
+                    "items": [{
+                        "badge_id": 34705,
+                        "user_badge_id": 209490501,
+                        "badge_name": "Middle of the Road",
+                        "badge_description": "Looking for more kick than a session beer, but want to be able to stay for a few rounds? You have to keep it in the middle. That's 5 beers with an ABV greater than 5% and less than 10%. Try 5 more Level 2!",
+                        "created_at": "Thu, 27 Jul 2017 00:04:21 +0000",
+                        "badge_image": {
+                            "sm": "https:\/\/untappd.akamaized.net\/badges\/bdg_middle-of-the-road_sm.jpg",
+                            "md": "https:\/\/untappd.akamaized.net\/badges\/bdg_middle-of-the-road_md.jpg",
+                            "lg": "https:\/\/untappd.akamaized.net\/badges\/bdg_middle-of-the-road_lg.jpg"
+                        }
+                    }]
+                }
+            }, {
+                "checkin_id": 481973883,
+                "created_at": "Sun, 23 Jul 2017 19:58:58 +0000",
+                "checkin_comment": "",
+                "rating_score": 4.5,
+                "user": {
+                    "uid": 4562840,
+                    "user_name": "breezyo",
+                    "first_name": "Bree",
+                    "last_name": "O.",
+                    "location": "LA, CA",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/b7c306805d739a02b042aef474f3f3ce_100x100.jpeg",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": [],
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 1,
+                    "count": 0,
+                    "auth_toast": false,
+                    "items": []
+                },
+                "media": {
+                    "count": 0,
+                    "items": []
+                },
+                "source": {
+                    "app_name": "Untappd for iPhone - (V2)",
+                    "app_website": "http:\/\/untpd.it\/iphoneapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 2,
+                    "items": [{
+                        "badge_id": 78,
+                        "user_badge_id": 208802727,
+                        "badge_name": "Playing the Field",
+                        "badge_description": "Does the word picking favorites mean anything to you? Obviously not. That's 10 different beers in a row.",
+                        "created_at": "Sun, 23 Jul 2017 19:58:59 +0000",
+                        "badge_image": {
+                            "sm": "https:\/\/untappd.akamaized.net\/badges\/bdg_playingTheField_sm.jpg",
+                            "md": "https:\/\/untappd.akamaized.net\/badges\/bdg_playingTheField_md.jpg",
+                            "lg": "https:\/\/untappd.akamaized.net\/badges\/bdg_playingTheField_lg.jpg"
+                        }
+                    }, {
+                        "badge_id": 538,
+                        "user_badge_id": 208802728,
+                        "badge_name": "Land of the Free (Level 2)",
+                        "badge_description": "You’ve pledged allegiance, and now it’s time to enjoy some beer! Now remember, not all American beer is fizzy and yellow. That’s 10 different beers from a brewery in the United States. Try 5 more for Level 3.",
+                        "created_at": "Sun, 23 Jul 2017 19:58:59 +0000",
+                        "badge_image": {
+                            "sm": "https:\/\/untappd.akamaized.net\/badges\/bdg_america_sm.jpg",
+                            "md": "https:\/\/untappd.akamaized.net\/badges\/bdg_america_md.jpg",
+                            "lg": "https:\/\/untappd.akamaized.net\/badges\/bdg_america_lg.jpg"
+                        }
+                    }]
+                }
+            }, {
+                "checkin_id": 481500853,
+                "created_at": "Sat, 22 Jul 2017 22:34:35 +0000",
+                "checkin_comment": "",
+                "rating_score": 3.75,
+                "user": {
+                    "uid": 3148401,
+                    "user_name": "BigHappyBourbon",
+                    "first_name": "Joel",
+                    "last_name": "F.",
+                    "location": "",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/f624d29eb55a6435839d577011a006df_100x100.jpg",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": [],
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 1,
+                    "count": 1,
+                    "auth_toast": false,
+                    "items": [{
+                        "uid": 1624218,
+                        "user": {
+                            "uid": 1624218,
+                            "user_name": "Aximand88",
+                            "first_name": "Kyle",
+                            "last_name": "",
+                            "bio": "",
+                            "location": "Salt Lake City",
+                            "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/68860056317ba5482646c837b4bcc420_100x100.jpg",
+                            "account_type": "user",
+                            "venue_details": [],
+                            "brewery_details": []
+                        },
+                        "like_id": 399930967,
+                        "like_owner": false,
+                        "created_at": "Sun, 23 Jul 2017 00:02:42 +0000"
+                    }]
+                },
+                "media": {
+                    "count": 1,
+                    "items": [{
+                        "photo_id": 131789579,
+                        "photo": {
+                            "photo_img_sm": "https:\/\/untappd.akamaized.net\/photo\/2017_07_22\/4929eba635a1a21d0a742744e8811c35_100x100.jpg",
+                            "photo_img_md": "https:\/\/untappd.akamaized.net\/photo\/2017_07_22\/4929eba635a1a21d0a742744e8811c35_320x320.jpg",
+                            "photo_img_lg": "https:\/\/untappd.akamaized.net\/photo\/2017_07_22\/4929eba635a1a21d0a742744e8811c35_640x640.jpg",
+                            "photo_img_og": "https:\/\/untappd.akamaized.net\/photo\/2017_07_22\/4929eba635a1a21d0a742744e8811c35_raw.jpg"
+                        }
+                    }]
+                },
+                "source": {
+                    "app_name": "Untappd for iPhone - (V2)",
+                    "app_website": "http:\/\/untpd.it\/iphoneapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 1,
+                    "items": [{
+                        "badge_id": 4857,
+                        "user_badge_id": 208501271,
+                        "badge_name": "To The Alt",
+                        "badge_description": "Originating from Germany, the Altbier, or old beer, uses the old school brewing style of top fermentation and is left to condition for longer than normal. That's 5 different beers with the style of Altbier. Try 5 for more Level 2!",
+                        "created_at": "Sat, 22 Jul 2017 22:34:38 +0000",
+                        "badge_image": {
+                            "sm": "https:\/\/untappd.akamaized.net\/badges\/bdg_AltBier_sm.jpg",
+                            "md": "https:\/\/untappd.akamaized.net\/badges\/bdg_AltBier_md.jpg",
+                            "lg": "https:\/\/untappd.akamaized.net\/badges\/bdg_AltBier_lg.jpg"
+                        }
+                    }]
+                }
+            }, {
+                "checkin_id": 481017455,
+                "created_at": "Sat, 22 Jul 2017 03:34:47 +0000",
+                "checkin_comment": "",
+                "rating_score": 3.5,
+                "user": {
+                    "uid": 1242459,
+                    "user_name": "Rowdyrod007",
+                    "first_name": "Juan",
+                    "last_name": "R.",
+                    "location": "",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/77b389e76d4de05c5dc0331b9ad44fef_100x100.jpg",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": [],
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 1,
+                    "count": 1,
+                    "auth_toast": false,
+                    "items": [{
+                        "uid": 2341728,
+                        "user": {
+                            "uid": 2341728,
+                            "user_name": "explodingendy",
+                            "first_name": "Endy",
+                            "last_name": "R.",
+                            "bio": "",
+                            "location": "So Cal",
+                            "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/ce46f03037f9a10bbc10034ea60ea015_100x100.jpeg",
+                            "account_type": "user",
+                            "venue_details": [],
+                            "brewery_details": []
+                        },
+                        "like_id": 400336015,
+                        "like_owner": false,
+                        "created_at": "Sun, 23 Jul 2017 21:01:51 +0000"
+                    }]
+                },
+                "media": {
+                    "count": 1,
+                    "items": [{
+                        "photo_id": 131620425,
+                        "photo": {
+                            "photo_img_sm": "https:\/\/untappd.akamaized.net\/photo\/2017_07_22\/8ce7eba5cbb9e8cc3175595cabd33460_100x100.jpg",
+                            "photo_img_md": "https:\/\/untappd.akamaized.net\/photo\/2017_07_22\/8ce7eba5cbb9e8cc3175595cabd33460_320x320.jpg",
+                            "photo_img_lg": "https:\/\/untappd.akamaized.net\/photo\/2017_07_22\/8ce7eba5cbb9e8cc3175595cabd33460_640x640.jpg",
+                            "photo_img_og": "https:\/\/untappd.akamaized.net\/photo\/2017_07_22\/8ce7eba5cbb9e8cc3175595cabd33460_raw.jpg"
+                        }
+                    }]
+                },
+                "source": {
+                    "app_name": "Untappd for iPhone - (V2)",
+                    "app_website": "http:\/\/untpd.it\/iphoneapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 0,
+                    "items": []
+                }
+            }, {
+                "checkin_id": 480420299,
+                "created_at": "Fri, 21 Jul 2017 01:26:11 +0000",
+                "checkin_comment": "",
+                "rating_score": 3.75,
+                "user": {
+                    "uid": 672915,
+                    "user_name": "Benhardin2",
+                    "first_name": "Ben",
+                    "last_name": "H.",
+                    "location": "",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/064fc38bbca3bb113f7389f669d9c58a_100x100.jpg",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": {
+                    "venue_id": 2461740,
+                    "venue_name": "Grinder",
+                    "venue_slug": "grinder",
+                    "primary_category": "Food",
+                    "parent_category_id": "4d4b7105d754a06374d81259",
+                    "categories": {
+                        "count": 2,
+                        "items": [{
+                            "category_name": "Coffee Shop",
+                            "category_id": "4bf58dd8d48988d1e0931735",
+                            "is_primary": true
+                        }, {
+                            "category_name": "Deli \/ Bodega",
+                            "category_id": "4bf58dd8d48988d146941735",
+                            "is_primary": false
+                        }]
+                    },
+                    "location": {
+                        "venue_address": "1 W Los Angeles Ave",
+                        "venue_city": "Moorpark",
+                        "venue_state": "CA",
+                        "venue_country": "United States",
+                        "lat": 34.2793,
+                        "lng": -118.883
+                    },
+                    "contact": {
+                        "twitter": "@grinderdeli",
+                        "venue_url": "http:\/\/grinderdeli.com"
+                    },
+                    "foursquare": {
+                        "foursquare_id": "4b76dbcff964a520c0642ee3",
+                        "foursquare_url": "http:\/\/4sq.com\/ddKywa"
+                    },
+                    "venue_icon": {
+                        "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_bg_64.png",
+                        "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_bg_88.png",
+                        "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/coffeeshop_bg_88.png"
+                    },
+                    "is_verified": false
+                },
+                "comments": {
+                    "total_count": 1,
+                    "count": 1,
+                    "items": [{
+                        "user": {
+                            "uid": 3123774,
+                            "user_name": "Stumpypeeps",
+                            "first_name": "Jeremy",
+                            "last_name": "B.",
+                            "bio": "",
+                            "location": "",
+                            "relationship": "none",
+                            "is_supporter": 0,
+                            "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/722b7ecb2d7059c242527b627b631cc1_100x100.jpeg",
+                            "account_type": "user",
+                            "venue_details": [],
+                            "brewery_details": []
+                        },
+                        "checkin_id": 480420299,
+                        "comment_id": 35780175,
+                        "comment_owner": false,
+                        "comment_editor": false,
+                        "comment": "Mmmm.",
+                        "created_at": "Sun, 23 Jul 2017 00:38:29 +0000",
+                        "comment_source": "API"
+                    }]
+                },
+                "toasts": {
+                    "total_count": 0,
+                    "count": 0,
+                    "auth_toast": false,
+                    "items": []
+                },
+                "media": {
+                    "count": 1,
+                    "items": [{
+                        "photo_id": 131418753,
+                        "photo": {
+                            "photo_img_sm": "https:\/\/untappd.akamaized.net\/photo\/2017_07_21\/315a99d8f30d72619416b1b20477b132_100x100.jpg",
+                            "photo_img_md": "https:\/\/untappd.akamaized.net\/photo\/2017_07_21\/315a99d8f30d72619416b1b20477b132_320x320.jpg",
+                            "photo_img_lg": "https:\/\/untappd.akamaized.net\/photo\/2017_07_21\/315a99d8f30d72619416b1b20477b132_640x640.jpg",
+                            "photo_img_og": "https:\/\/untappd.akamaized.net\/photo\/2017_07_21\/315a99d8f30d72619416b1b20477b132_raw.jpg"
+                        }
+                    }]
+                },
+                "source": {
+                    "app_name": "Untappd for iPhone - (V2)",
+                    "app_website": "http:\/\/untpd.it\/iphoneapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 1,
+                    "items": [{
+                        "badge_id": 6182,
+                        "user_badge_id": 207785787,
+                        "badge_name": "Cheers To You! (Level 4)",
+                        "badge_description": "Happy Untappd anniversary to you! Thanks for sticking around and drinking socially with us. Cheers! That's 4 years on Untappd!",
+                        "created_at": "Fri, 21 Jul 2017 01:26:12 +0000",
+                        "badge_image": {
+                            "sm": "https:\/\/untappd.akamaized.net\/badges\/bdg_HeresToYou_sm.jpg",
+                            "md": "https:\/\/untappd.akamaized.net\/badges\/bdg_HeresToYou_md.jpg",
+                            "lg": "https:\/\/untappd.akamaized.net\/badges\/bdg_HeresToYou_lg.jpg"
+                        }
+                    }]
+                }
+            }, {
+                "checkin_id": 479460842,
+                "created_at": "Tue, 18 Jul 2017 01:50:59 +0000",
+                "checkin_comment": "",
+                "rating_score": 4,
+                "user": {
+                    "uid": 1237119,
+                    "user_name": "Johnsonmelba",
+                    "first_name": "Melba",
+                    "last_name": "J.",
+                    "location": "",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/gravatar.com\/avatar\/a4cb699875480f4441a926e8795d16fb?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": {
+                    "venue_id": 1291937,
+                    "venue_name": "Taqueria Jalisco",
+                    "venue_slug": "taqueria-jalisco",
+                    "primary_category": "Food",
+                    "parent_category_id": "4d4b7105d754a06374d81259",
+                    "categories": {
+                        "count": 3,
+                        "items": [{
+                            "category_name": "Mexican Restaurant",
+                            "category_id": "4bf58dd8d48988d1c1941735",
+                            "is_primary": true
+                        }, {
+                            "category_name": "Burrito Place",
+                            "category_id": "4bf58dd8d48988d153941735",
+                            "is_primary": false
+                        }, {
+                            "category_name": "Taco Place",
+                            "category_id": "4bf58dd8d48988d151941735",
+                            "is_primary": false
+                        }]
+                    },
+                    "location": {
+                        "venue_address": "4275 Tierra Rejada Rd",
+                        "venue_city": "Moorpark",
+                        "venue_state": "CA",
+                        "venue_country": "United States",
+                        "lat": 34.2685,
+                        "lng": -118.899
+                    },
+                    "contact": {
+                        "twitter": "",
+                        "venue_url": ""
+                    },
+                    "foursquare": {
+                        "foursquare_id": "4ea09cdfa17c6d013241bd9c",
+                        "foursquare_url": "http:\/\/4sq.com\/nm8WkR"
+                    },
+                    "venue_icon": {
+                        "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/mexican_bg_64.png",
+                        "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/mexican_bg_88.png",
+                        "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/mexican_bg_88.png"
+                    },
+                    "is_verified": false
+                },
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 0,
+                    "count": 0,
+                    "auth_toast": false,
+                    "items": []
+                },
+                "media": {
+                    "count": 0,
+                    "items": []
+                },
+                "source": {
+                    "app_name": "Untappd for iPhone - (V2)",
+                    "app_website": "http:\/\/untpd.it\/iphoneapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 0,
+                    "items": []
+                }
+            }, {
+                "checkin_id": 479430295,
+                "created_at": "Tue, 18 Jul 2017 00:30:00 +0000",
+                "checkin_comment": "",
+                "rating_score": 0,
+                "user": {
+                    "uid": 2524926,
+                    "user_name": "DesperateP",
+                    "first_name": "Jan",
+                    "last_name": "M.",
+                    "location": "San Francisco",
+                    "url": "",
+                    "is_supporter": 0,
+                    "bio": "",
+                    "relationship": "follow",
+                    "user_avatar": "https:\/\/untappd.akamaized.net\/profile\/c0b3536f6995e23b4912a7e0ab79008a_100x100.jpg",
+                    "is_private": 0
+                },
+                "beer": {
+                    "bid": 75231,
+                    "beer_name": "Valkyrie",
+                    "beer_label": "https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                    "beer_abv": 6.2,
+                    "beer_ibu": 35,
+                    "beer_slug": "enegren-brewing-company-valkyrie",
+                    "beer_description": "Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                    "beer_style": "Altbier",
+                    "auth_rating": 0,
+                    "wish_list": false,
+                    "has_had": false,
+                    "beer_active": 1
+                },
+                "brewery": {
+                    "brewery_id": 14167,
+                    "brewery_name": "Enegren Brewing Company",
+                    "brewery_slug": "enegren-brewing-company",
+                    "brewery_label": "https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                    "country_name": "United States",
+                    "contact": {
+                        "twitter": "EnegrenBrewing",
+                        "facebook": "https:\/\/www.facebook.com\/enegrenbrewing",
+                        "url": "http:\/\/www.enegrenbrewing.com"
+                    },
+                    "location": {
+                        "brewery_city": "Moorpark",
+                        "brewery_state": "CA",
+                        "lat": 34.2831,
+                        "lng": -118.871
+                    },
+                    "brewery_active": 1
+                },
+                "venue": {
+                    "venue_id": 6489857,
+                    "venue_name": "Red Balls Rock & Roll Pizza",
+                    "venue_slug": "red-balls-rock-and-roll-pizza",
+                    "primary_category": "Food",
+                    "parent_category_id": "4d4b7105d754a06374d81259",
+                    "categories": {
+                        "count": 2,
+                        "items": [{
+                            "category_name": "Pizza Place",
+                            "category_id": "4bf58dd8d48988d1ca941735",
+                            "is_primary": true
+                        }, {
+                            "category_name": "Bowling Alley",
+                            "category_id": "4bf58dd8d48988d1e4931735",
+                            "is_primary": false
+                        }]
+                    },
+                    "location": {
+                        "venue_address": "480 E Los Angeles Ave",
+                        "venue_city": "Simi Valley",
+                        "venue_state": "CA",
+                        "venue_country": "United States",
+                        "lat": 34.271,
+                        "lng": -118.789
+                    },
+                    "contact": {
+                        "twitter": "",
+                        "venue_url": ""
+                    },
+                    "foursquare": {
+                        "foursquare_id": "59507d082496235e42d2fa9f",
+                        "foursquare_url": "http:\/\/4sq.com\/2sc5oSV"
+                    },
+                    "venue_icon": {
+                        "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/pizza_bg_64.png",
+                        "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/pizza_bg_88.png",
+                        "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/pizza_bg_88.png"
+                    },
+                    "is_verified": false
+                },
+                "comments": {
+                    "total_count": 0,
+                    "count": 0,
+                    "items": []
+                },
+                "toasts": {
+                    "total_count": 0,
+                    "count": 0,
+                    "auth_toast": false,
+                    "items": []
+                },
+                "media": {
+                    "count": 0,
+                    "items": []
+                },
+                "source": {
+                    "app_name": "Untappd for Android - (V2)",
+                    "app_website": "http:\/\/untpd.it\/androidapp"
+                },
+                "badges": {
+                    "retro_status": false,
+                    "count": 0,
+                    "items": []
+                }
+            }]
+        }
+    }
+}

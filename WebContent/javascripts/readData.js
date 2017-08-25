@@ -1,4 +1,4 @@
-var brw = [];
+var breweries = [];
 var numBeers=1;
 var idString = `<div class="form-group row" id="` + numBeers + `">`
 var startString = 
@@ -13,30 +13,129 @@ var endString = `
 		</div>
 `;
 function makeGraph(){
-	var ctx = document.getElementById("myChart");
-	var myChart;
+	var ctx1 = document.getElementById("chart1");
+	var ctx2 = document.getElementById("chart2");
+	var ctx3 = document.getElementById("chart3");
+	var ctx4 = document.getElementById("chart4");
+	var chart1;
+	var chart2;
+	var chart3;
+	var chart4;
+	var beerLocs = [];
+	var count = 0;
+	var drp = $('#reportrange').data('daterangepicker');
+	var maxCount = 0;
+	var brwLoc
 	$("#submit").click(function (){
-		var names = [];
-		var data = [];
-		var brwLoc = brw.map(function(x) {return x.name}).indexOf($("#brewerySelect option:selected" ).text());
+		
+		brwLoc = breweries.map(function(x) {return x.name}).indexOf($("#brewerySelect option:selected" ).text());
+		maxCount = $( ".beer option:selected" ).length;
+		console.log("maxCount:" + maxCount);
+		
 		$( ".beer option:selected" ).each(function( index ) {
-			var beerLoc = brw[brwLoc].beers.map(function(x) {return x.name}).indexOf($(this).text());
-			names.push($(this).text())
-			data.push(brw[brwLoc].beers[beerLoc].rating)
+			var beerLoc = breweries[brwLoc].beers.map(function(x) {return x.name}).indexOf($(this).text());
+			beerLocs.push(beerLoc);
+			pullDataFromJson(breweries[brwLoc].beers[beerLoc])
 			
-			console.log( index + ": " + $( this ).text() );
 		});
-		if(myChart){
-			myChart.destroy();
-			ctx = document.getElementById("myChart");
+		
+		
+	});
+		
+	function pullDataFromJson(beer, startID = 0) {
+		beer.emptyCheckin();
+		var done = false;
+		var connectionString = "https://api.untappd.com/v4/beer/checkins/"+beer.id+"?access_token=58BFAE75D0393B7ED61DAF2C806CC7F89F755870";
+		if(startID != 0) {
+			connectionString = "https://api.untappd.com/v4/beer/checkins/"+beer.id+"?max_id="+startID+"&access_token=58BFAE75D0393B7ED61DAF2C806CC7F89F755870"
+		} 
+		var newStartID = 0;
+		$.getJSON(connectionString, function(json) {
+			for(var i = 0; i < json.response.checkins.items.length; i++){
+				if(new Date(json.response.checkins.items[i].created_at).getTime() >= new Date(drp.startDate).getTime()) {
+					if(new Date(json.response.checkins.items[i].created_at).getTime() <= new Date(drp.endDate).getTime()) {
+						var check = new checkin(
+								json.response.checkins.items[i].checkin_id,
+								json.response.checkins.items[i].user.uid,
+								//json.response.checkins.items[i].venue.venue_id,
+								//json.response.checkins.items[i].venue.location.lat,
+								//json.response.checkins.items[i].venue.location.lng,
+								json.response.checkins.items[i].comments.total_count,
+								json.response.checkins.items[i].comments.toasts,
+								json.response.checkins.items[i].rating_score,
+								json.response.checkins.items[i].created_at
+						);
+						beer.addCheckin(check);
+						newStartID = json.response.checkins.items[i].checkin_id;
+					}
+					
+					else { //when check in happened after date
+						
+					}
+				} else { //when check in happened before date
+					done = true;
+				}
+			}
+			 if(json.response.checkins.items.length<25) {
+				 done = true;
+			 }
+			
+			
+			
+			if(done) {
+				console.log(" one beer data collection finished");
+				console.log("Count:" + count);
+				count++;
+			} else {
+				pullDataFromJson(beer, startID = newStartID);
+				console.log("more beer data collection called");
+			}
+			if(count == maxCount) {
+				console.log("all beer data collection finished");
+				createGraphs();
+				count = 0;
+			}
+		});
+		
+			
+	}
+		
+	function createGraphs() {
+		console.log("create graph called");
+		var names = [];
+		var dataBar = [];
+		var dataPie = [];
+		
+		for(var i = 0 ; i < beerLocs.length;i++) {
+			dataPie.push(breweries[brwLoc].beers[beerLocs[i]].activity.length);
+			dataBar.push(breweries[brwLoc].beers[beerLocs[i]].getRatingFromActivity());
+			names.push(breweries[brwLoc].beers[beerLocs[i]].name);
+			
 		}
-		myChart = new Chart(ctx, {
+		beerLocs = [];
+		if(chart1){
+			chart1.destroy();
+			ctx1 = document.getElementById("chart1");
+		}
+		if(chart2){
+			chart2.destroy();
+			ctx2 = document.getElementById("chart2");
+		}
+		if(chart3){
+			chart3.destroy();
+			ctx3 = document.getElementById("chart3");
+		}
+		if(chart4){
+			chart4.destroy();
+			ctx4 = document.getElementById("chart4");
+		}
+		chart1 = new Chart(ctx1, {
 		    type: 'bar',
 		    data: {
 		        labels: names,
 		        datasets: [{
 		            label: 'Average Rating',
-		            data: data,
+		            data: dataBar,
 		            borderWidth: 1
 		        }]
 		    },
@@ -50,31 +149,39 @@ function makeGraph(){
 		        }
 		    }
 		});
-	});
+		chart2 = new Chart(ctx2, {
+		    type: 'pie',
+		    data: {
+		        labels: names,
+		        datasets: [{
+		            label: 'Num Check Ins',
+		            data: dataPie,
+		        }]
+		    },
+		    options: {
+		    }
+		});
+	}
 }
 
 function setBreweryMenu(){
 
 	$("#brewerySelect").empty();
-	for(var i = 0; i < brw.length; i++){
-		$("#brewerySelect").append("<option>"+brw[i].name+"</option>")
+	for(var i = 0; i < breweries.length; i++){
+		$("#brewerySelect").append("<option>"+breweries[i].name+"</option>")
 		
 	}
-	var loc = 0
-	var brewery = brw[loc];
+	var loc = breweries.map(function(x) {return x.name}).indexOf($("#brewerySelect option:selected" ).text());
+	readBeerList(loc);
 	//console.log(brewery)
-	$(".beer").empty();
-	$(".beer").append(brewery.beerOptions);
+	//$(".beer").empty();
+	//$(".beer").append(brewery.beerOptions);
 	
 }
 function fillBeerMenu(){
-	//console.log("here");
 	$("#brewerySelect" ).change(function() {
-			//console.log("here2");
-			var loc = brw.map(function(x) {return x.name}).indexOf($("#brewerySelect option:selected" ).text());
-	    	var brewery = brw[loc];
-	    	$(".beer").empty();
-	    	$(".beer").append(brewery.beerOptions);
+			var loc = breweries.map(function(x) {return x.name}).indexOf($("#brewerySelect option:selected" ).text());
+			readBeerList(loc);
 	});
 }
 
@@ -82,8 +189,8 @@ function addButton(){
 	
 	$("#addBeer").click(function (){
 		//console.log($("#brewerySelect option:selected" ).text());
-		var loc = brw.map(function(x) {return x.name}).indexOf($("#brewerySelect option:selected" ).text());
-		var brewery = brw[loc];
+		var loc = breweries.map(function(x) {return x.name}).indexOf($("#brewerySelect option:selected" ).text());
+		var brewery = breweries[loc];
 		var middleString = brewery.beerOptions;
 		numBeers++;
 		idString = `<div class="form-group row" id="` + numBeers + `">`;
@@ -104,43 +211,70 @@ function addButton(){
 
 
 
-function breweryList(breweryName,callback){
-	var breweries = [];
-	$.getJSON("/untappedBreweryProject/sampleJsonFiles/brewerySearch.json", function(data) {
-		
+function breweryList(){
+	breweries = [];
+	var textInput = $('#brewerySearchInput').val();
+	connectionString = "https://api.untappd.com/v4/search/brewery?access_token=58BFAE75D0393B7ED61DAF2C806CC7F89F755870&q=" + textInput;
+	$.getJSON(connectionString, function(data) {
 		for(var i = 0; i < data.response.brewery.items.length; i++){
-			breweries[i] = [data.response.brewery.items[i].brewery.brewery_name, data.response.brewery.items[i].brewery.brewery_id];
+			breweries.push(new brewery(data.response.brewery.items[i].brewery.brewery_name, data.response.brewery.items[i].brewery.brewery_id));
 		}
-		callback(breweries);
+		
+		setBreweryMenu();
 	});
 };
 
-function readBeerList(breweryID,callback){
-	var beers = [];
-	$.getJSON("/untappedBreweryProject/sampleJsonFiles/enegren.json", function(data) {
-		for(var i = 0; i < data.response.brewery.beer_list.items.length; i++){
-		  	beers[i] = new beer(data.response.brewery.beer_list.items[i].beer.beer_name, 
-		  			data.response.brewery.beer_list.items[i].beer.bid,
-		  			data.response.brewery.beer_list.items[i].beer.rating_score);
+
+function readBeerList(breweryLoc, offset = 0){
+	if(offset == 0) {
+		start();
+	}
+	console.log("new readBeer");
+	console.log("offset:" + offset);
+	var newOffset = offset;
+	var connectionString = "";
+	connectionString = "https://api.untappd.com/v4/search/beer?access_token=58BFAE75D0393B7ED61DAF2C806CC7F89F755870&limit=50&offset="+offset+"&q="+breweries[breweryLoc].name;
+	$.getJSON(connectionString, function(data) {
+		
+		for(var i = 0; i < data.response.beers.items.length; i++){
+		  	breweries[breweryLoc].addBeer(
+		  			new Beer(data.response.beers.items[i].beer.beer_name, 
+		  					data.response.beers.items[i].beer.bid,
+		  					data.response.beers.items[i].beer.rating_score)
+		  	);
+		  	newOffset++;
 		};
-		//console.log(JSON.stringify(beers))
-		callback(beers)
+		console.log("newoffset:" + newOffset);
+		if(data.response.beers.count<50) {
+			finish();
+		} else {
+			readBeerList(breweryLoc,offset = newOffset);
+		}
 	});
+	function finish() {
+		$(".beer").append(breweries[breweryLoc].beerOptions);
+	}
+	function start() {
+		$(".beer").empty();
+	}
 };
+
+function findBreweryButton() {
+	$("#findBreweryButton").click(function (){
+		breweryList();
+	});
+}
 
 $(document).ready(function(){
-	function breweryCallback(breweries) {
-		//makeGraph(breweries[0].beerNames,breweries[0].beerRatings);
-		function beerCallback(beers) {
-			brw = [new brewery(breweries[0][0],breweries[0][1],beers)];
-			setBreweryMenu();
-			//makeGraph(brw[0].beerNames,brw[0].beerRatings);
-			//console.log(JSON.stringify(brw));
-		}
-		readBeerList(breweries[0][1], beerCallback)
-	}
-	breweryList("enegren",breweryCallback);
+	
+	breweryList();
 	addButton();
+	findBreweryButton();
 	fillBeerMenu();
 	makeGraph();
+	//readBeerActivity();
+	$("#happy").empty();
+	
+	
 });
+

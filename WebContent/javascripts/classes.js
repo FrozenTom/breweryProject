@@ -1,11 +1,14 @@
 class brewery {
-	constructor(name,id,beers) {
+	constructor(name,id) {
 		this.name = name;
 		this.id = id;
-		this.beers = beers;
+		this.beers = new Array();
 	}
 	addBeer(beer) {
-		this.beers.append(beer);
+		this.beers.push(beer);
+	}
+	emptyBeers() {
+		this.beers = new Array();
 	}
 	get beerNames() {
 		var beerNames = [];
@@ -34,11 +37,28 @@ class brewery {
 	
 }
 
-class beer {
+class Beer {
 	constructor(name,id,rating) {
 		this.name = name;
 		this.id = id;
 		this.rating = rating;
+		this.activity = [];
+	}
+	addCheckin(checkin) {
+		this.activity.push(checkin);
+	}
+	
+	getRatingFromActivity() {
+		var tempRating = 0;
+		for(var i = 0; i<this.activity.length;i++) {
+			tempRating = tempRating+ this.activity[i].rating;
+		}
+		tempRating = tempRating/this.activity.length;
+		return tempRating;
+	}
+	
+	emptyCheckin() {
+		this.activity = [];
 	}
 	
 	get optionString() {
@@ -46,4 +66,18 @@ class beer {
 		option = "<option>"+this.name+"</option>";
 		return option;
 	}
+}
+class checkin {
+	constructor(id,uid,numcomments,numtoasts,rating, date) {
+		this.id = id;
+		this.uid = uid;
+		//this.vid = vid;
+		//this.lat = lat
+		//this.lon = lon;
+		this.numCom = numcomments;
+		this.numToasts = numtoasts;
+		this.rating = rating;
+		this.date = date;
+	}
+	
 }
