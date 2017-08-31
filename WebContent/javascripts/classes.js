@@ -48,14 +48,14 @@ class Beer {
 		this.activity.push(checkin);
 	}
 	
-	getRatingFromActivity() {
-		var tempRating = 0;
-		for(var i = 0; i<this.activity.length;i++) {
-			tempRating = tempRating+ this.activity[i].rating;
-		}
-		tempRating = tempRating/this.activity.length;
-		return tempRating;
-	}
+	//getRatingFromActivity() {
+	//	var tempRating = 0;
+	//	for(var i = 0; i<this.activity.length;i++) {
+	//		tempRating = tempRating+ this.activity[i].rating;
+	//	}
+	//	tempRating = tempRating/this.activity.length;
+	//	return tempRating;
+	//}
 	
 	emptyCheckin() {
 		this.activity = [];
@@ -65,6 +65,27 @@ class Beer {
 		var option;
 		option = "<option>"+this.name+"</option>";
 		return option;
+	}
+	get oldest() {
+		
+		var oldest = new Date();
+		for( var i = 0; i< this.activity.length; i++) {
+			if(new Date(this.activity[i].date).getTime()<oldest.getTime()) {
+				oldest = new Date(this.activity[i].date);
+			}
+		}
+		return oldest;
+	}
+	getActivityBetween(startDate, endDate) {
+		var newActivity = [];
+		for( var i = 0; i< this.activity.length; i++) {
+			if(new Date(this.activity[i].date).getTime()<endDate.getTime() && 
+					new Date(this.activity[i].date).getTime()>startDate.getTime()) {
+				
+				newActivity.push(this.activity[i]);
+			}
+		}
+		return newActivity;
 	}
 }
 class checkin {
