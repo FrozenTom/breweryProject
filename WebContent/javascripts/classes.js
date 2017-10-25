@@ -3,6 +3,7 @@ class brewery {
 		this.name = name;
 		this.id = id;
 		this.beers = new Array();
+		this.checkins = new Array();
 	}
 	addBeer(beer) {
 		this.beers.push(beer);
@@ -33,6 +34,18 @@ class brewery {
 		}
 		optionList.sort();
 		return optionList;
+	}
+	addCheckin(checkin) {
+		this.checkins.push(checkin);
+	}
+	get oldest() {
+		var oldest = new Date();
+		for( var i = 0; i< this.checkins.length; i++) {
+			if(new Date(this.checkins[i].created_at).getTime()<oldest.getTime()) {
+				oldest = new Date(this.checkins[i].created_at);
+			}
+		}
+		return oldest;
 	}
 	
 }

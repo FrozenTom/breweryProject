@@ -1,0 +1,3556 @@
+{  
+   "meta":{  
+      "code":200,
+      "response_time":{  
+         "time":0.451,
+         "measure":"seconds"
+      },
+      "init_time":{  
+         "time":0,
+         "measure":"seconds"
+      }
+   },
+   "notifications":{  
+      "type":"notifications",
+      "unread_count":{  
+         "comments":4,
+         "toasts":0,
+         "friends":0,
+         "messages":0,
+         "venues":0,
+         "others":11,
+         "news":100
+      }
+   },
+   "response":{  
+      "type":"full",
+      "pagination":{  
+         "since_url":"https:\/\/api.untappd.com\/v4\/brewery\/checkins\/14167?min_id=519168640",
+         "next_url":"https:\/\/api.untappd.com\/v4\/brewery\/checkins\/14167?max_id=518728567",
+         "max_id":518728567
+      },
+      "table":true,
+      "mem":false,
+      "time":0.012,
+      "checkins":{  
+         "count":25,
+         "items":[  
+            {  
+               "checkin_id":519168640,
+               "created_at":"Tue, 24 Oct 2017 20:21:20 +0000",
+               "checkin_comment":"",
+               "rating_score":3.75,
+               "user":{  
+                  "uid":1544845,
+                  "user_name":"erich1005",
+                  "first_name":"Eric",
+                  "last_name":"H.",
+                  "location":"",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/gravatar.com\/avatar\/01b7d56a7e0bf33b3142d3139ba6238f?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":1726664,
+                  "beer_name":"Oktoberfest",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                  "beer_abv":5.5,
+                  "beer_ibu":23,
+                  "beer_slug":"enegren-brewing-company-oktoberfest",
+                  "beer_description":"Enegren Oktoberfest is a traditional Bavarian Märzen style Lager brewed with imported German Munich, Vienna and Pilsner malts. These malts give our Oktoberfest a beautiful orange color and a full-bodied, malty-sweet flavor with hints of honey, nuts and caramel. Prost!.",
+                  "beer_style":"Märzen",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":{  
+                  "venue_id":6926484,
+                  "venue_name":"Sotta",
+                  "venue_slug":"sotta",
+                  "primary_category":"Food",
+                  "parent_category_id":"4d4b7105d754a06374d81259",
+                  "categories":{  
+                     "count":1,
+                     "items":[  
+                        {  
+                           "category_name":"Mediterranean Restaurant",
+                           "category_id":"4bf58dd8d48988d1c0941735",
+                           "is_primary":true
+                        }
+                     ]
+                  },
+                  "location":{  
+                     "venue_address":"",
+                     "venue_city":"Burbank",
+                     "venue_state":"CA",
+                     "venue_country":"United States",
+                     "lat":34.1603,
+                     "lng":-118.324
+                  },
+                  "contact":{  
+                     "twitter":"",
+                     "venue_url":""
+                  },
+                  "foursquare":{  
+                     "foursquare_id":"59e7a2f23731ee7f3260a061",
+                     "foursquare_url":"http:\/\/4sq.com\/2yzlfBF"
+                  },
+                  "venue_icon":{  
+                     "sm":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/mediterranean_bg_64.png",
+                     "md":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/mediterranean_bg_88.png",
+                     "lg":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/mediterranean_bg_88.png"
+                  },
+                  "is_verified":false
+               },
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":0,
+                  "count":0,
+                  "auth_toast":false,
+                  "items":[  
+
+                  ]
+               },
+               "media":{  
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for iPhone - (V2)",
+                  "app_website":"http:\/\/untpd.it\/iphoneapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":2,
+                  "items":[  
+                     {  
+                        "badge_id":5640,
+                        "user_badge_id":262335400,
+                        "badge_name":"Wheel of Styles (Level 11)",
+                        "badge_description":"Round and round the wheel goes! Which style you’ll be drinking, nobody knows! Your desire to explore different styles is inspiring. Keep it up! That's a check-in to at least 55 different styles. Try 5 more for Level 12!",
+                        "created_at":"Tue, 24 Oct 2017 20:21:21 +0000",
+                        "badge_image":{  
+                           "sm":"https:\/\/untappd.akamaized.net\/badges\/bdg_WheelofStyles_sm.jpg",
+                           "md":"https:\/\/untappd.akamaized.net\/badges\/bdg_WheelofStyles_md.jpg",
+                           "lg":"https:\/\/untappd.akamaized.net\/badges\/bdg_WheelofStyles_lg.jpg"
+                        }
+                     },
+                     {  
+                        "badge_id":34706,
+                        "user_badge_id":262335401,
+                        "badge_name":"Middle of the Road (Level 2)",
+                        "badge_description":"Looking for more kick than a session beer, but want to be able to stay for a few rounds? You have to keep it in the middle. That's 10 beers with an ABV greater than 5% and less than 10%. Try 5 more Level 3!",
+                        "created_at":"Tue, 24 Oct 2017 20:21:21 +0000",
+                        "badge_image":{  
+                           "sm":"https:\/\/untappd.akamaized.net\/badges\/bdg_middle-of-the-road_sm.jpg",
+                           "md":"https:\/\/untappd.akamaized.net\/badges\/bdg_middle-of-the-road_md.jpg",
+                           "lg":"https:\/\/untappd.akamaized.net\/badges\/bdg_middle-of-the-road_lg.jpg"
+                        }
+                     }
+                  ]
+               }
+            },
+            {  
+               "checkin_id":519093343,
+               "created_at":"Tue, 24 Oct 2017 07:06:19 +0000",
+               "checkin_comment":"",
+               "rating_score":5,
+               "user":{  
+                  "uid":3961599,
+                  "user_name":"TakaWakaFlame",
+                  "first_name":"curtis",
+                  "last_name":"t.",
+                  "location":"",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/untappd.akamaized.net\/profile\/f597169a8d541f5fd1d7f7b4211373da_100x100.jpg",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":75231,
+                  "beer_name":"Valkyrie",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                  "beer_abv":6.2,
+                  "beer_ibu":35,
+                  "beer_slug":"enegren-brewing-company-valkyrie",
+                  "beer_description":"Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                  "beer_style":"Altbier",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":{  
+                  "venue_id":5037,
+                  "venue_name":"BJ's Restaurant and Brewhouse",
+                  "venue_slug":"bjs-restaurant-and-brewhouse",
+                  "primary_category":"Food",
+                  "parent_category_id":"4d4b7105d754a06374d81259",
+                  "categories":{  
+                     "count":3,
+                     "items":[  
+                        {  
+                           "category_name":"American Restaurant",
+                           "category_id":"4bf58dd8d48988d14e941735",
+                           "is_primary":true
+                        },
+                        {  
+                           "category_name":"Pizza Place",
+                           "category_id":"4bf58dd8d48988d1ca941735",
+                           "is_primary":false
+                        },
+                        {  
+                           "category_name":"Brewery",
+                           "category_id":"50327c8591d4c4b30a586d5d",
+                           "is_primary":false
+                        }
+                     ]
+                  },
+                  "location":{  
+                     "venue_address":"11101 183rd St",
+                     "venue_city":"Cerritos",
+                     "venue_state":"CA",
+                     "venue_country":"United States",
+                     "lat":33.8663,
+                     "lng":-118.098
+                  },
+                  "contact":{  
+                     "twitter":"@bjsrestaurants",
+                     "venue_url":"http:\/\/t.co\/bl46gcjDLN"
+                  },
+                  "foursquare":{  
+                     "foursquare_id":"4aa30ecaf964a5202b4320e3",
+                     "foursquare_url":"http:\/\/4sq.com\/4ug9YM"
+                  },
+                  "venue_icon":{  
+                     "sm":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/default_bg_64.png",
+                     "md":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/default_bg_88.png",
+                     "lg":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/default_bg_88.png"
+                  },
+                  "is_verified":false
+               },
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":2,
+                  "count":2,
+                  "auth_toast":true,
+                  "items":[  
+                     {  
+                        "uid":116294,
+                        "user":{  
+                           "uid":116294,
+                           "user_name":"EnegrenBrewing",
+                           "first_name":"Enegren Brewing Company",
+                           "last_name":"",
+                           "bio":"",
+                           "location":"",
+                           "user_avatar":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                           "account_type":"brewery",
+                           "venue_details":[  
+
+                           ],
+                           "brewery_details":{  
+                              "brewery_id":14167
+                           },
+                           "user_link":"https:\/\/untappd.com\/brewery\/14167"
+                        },
+                        "like_id":434774918,
+                        "like_owner":true,
+                        "created_at":"Tue, 24 Oct 2017 17:50:47 +0000"
+                     },
+                     {  
+                        "uid":783129,
+                        "user":{  
+                           "uid":783129,
+                           "user_name":"BeerGeek714",
+                           "first_name":"Carlos",
+                           "last_name":"R.",
+                           "bio":"Enjoying life one Beer at a time",
+                           "location":"California",
+                           "user_avatar":"https:\/\/untappd.akamaized.net\/profile\/3ad68ae341607e6ffbe720eb8d8ea99e_100x100.jpg",
+                           "account_type":"user",
+                           "venue_details":[  
+
+                           ],
+                           "brewery_details":[  
+
+                           ]
+                        },
+                        "like_id":434722063,
+                        "like_owner":false,
+                        "created_at":"Tue, 24 Oct 2017 08:22:11 +0000"
+                     }
+                  ]
+               },
+               "media":{  
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for iPhone - (V2)",
+                  "app_website":"http:\/\/untpd.it\/iphoneapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":1,
+                  "items":[  
+                     {  
+                        "badge_id":34720,
+                        "user_badge_id":262245909,
+                        "badge_name":"Middle of the Road (Level 16)",
+                        "badge_description":"Looking for more kick than a session beer, but want to be able to stay for a few rounds? You have to keep it in the middle. That's 80 beers with an ABV greater than 5% and less than 10%. Try 5 more Level 17!",
+                        "created_at":"Tue, 24 Oct 2017 07:06:19 +0000",
+                        "badge_image":{  
+                           "sm":"https:\/\/untappd.akamaized.net\/badges\/bdg_middle-of-the-road_sm.jpg",
+                           "md":"https:\/\/untappd.akamaized.net\/badges\/bdg_middle-of-the-road_md.jpg",
+                           "lg":"https:\/\/untappd.akamaized.net\/badges\/bdg_middle-of-the-road_lg.jpg"
+                        }
+                     }
+                  ]
+               }
+            },
+            {  
+               "checkin_id":519064689,
+               "created_at":"Tue, 24 Oct 2017 02:20:37 +0000",
+               "checkin_comment":"Last of the flight, none of them that great",
+               "rating_score":3,
+               "user":{  
+                  "uid":3153292,
+                  "user_name":"RFid99",
+                  "first_name":"Richard",
+                  "last_name":"F.",
+                  "location":"London",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/gravatar.com\/avatar\/6ee32d5886f58e4de24bc97880b172f2?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":1726664,
+                  "beer_name":"Oktoberfest",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                  "beer_abv":5.5,
+                  "beer_ibu":23,
+                  "beer_slug":"enegren-brewing-company-oktoberfest",
+                  "beer_description":"Enegren Oktoberfest is a traditional Bavarian Märzen style Lager brewed with imported German Munich, Vienna and Pilsner malts. These malts give our Oktoberfest a beautiful orange color and a full-bodied, malty-sweet flavor with hints of honey, nuts and caramel. Prost!.",
+                  "beer_style":"Märzen",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":{  
+                  "venue_id":3444584,
+                  "venue_name":"Pitfire Artisan Pizza",
+                  "venue_slug":"pitfire-artisan-pizza",
+                  "primary_category":"Food",
+                  "parent_category_id":"4d4b7105d754a06374d81259",
+                  "categories":{  
+                     "count":2,
+                     "items":[  
+                        {  
+                           "category_name":"Pizza Place",
+                           "category_id":"4bf58dd8d48988d1ca941735",
+                           "is_primary":true
+                        },
+                        {  
+                           "category_name":"Shopping Mall",
+                           "category_id":"4bf58dd8d48988d1fd941735",
+                           "is_primary":false
+                        }
+                     ]
+                  },
+                  "location":{  
+                     "venue_address":"966 S Westlake Blvd Ste 3",
+                     "venue_city":"Westlake Village",
+                     "venue_state":"CA",
+                     "venue_country":"United States",
+                     "lat":34.1535,
+                     "lng":-118.826
+                  },
+                  "contact":{  
+                     "twitter":"@pitfirepizza",
+                     "venue_url":"http:\/\/www.pitfirepizza.com"
+                  },
+                  "foursquare":{  
+                     "foursquare_id":"55bedae9498e67cbb5cba88a",
+                     "foursquare_url":"http:\/\/4sq.com\/1KKPQNn"
+                  },
+                  "venue_icon":{  
+                     "sm":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/pizza_bg_64.png",
+                     "md":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/pizza_bg_88.png",
+                     "lg":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/pizza_bg_88.png"
+                  },
+                  "is_verified":false
+               },
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":0,
+                  "count":0,
+                  "auth_toast":false,
+                  "items":[  
+
+                  ]
+               },
+               "media":{  
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for iPhone - (V2)",
+                  "app_website":"http:\/\/untpd.it\/iphoneapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               }
+            },
+            {  
+               "checkin_id":519060239,
+               "created_at":"Tue, 24 Oct 2017 02:03:53 +0000",
+               "checkin_comment":"",
+               "rating_score":3,
+               "user":{  
+                  "uid":3153292,
+                  "user_name":"RFid99",
+                  "first_name":"Richard",
+                  "last_name":"F.",
+                  "location":"London",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/gravatar.com\/avatar\/6ee32d5886f58e4de24bc97880b172f2?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":1125653,
+                  "beer_name":"Schoner Tag",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                  "beer_abv":4.7,
+                  "beer_ibu":14,
+                  "beer_slug":"enegren-brewing-company-schoner-tag",
+                  "beer_description":"Schoner Tag, which means 'Beautiful Day' in German, is a traditional Bavarian-style hefeweizen. Brewed with over 50% malted wheat, the beer is cloudy from the higher proteins in wheat. The signature flavor in this beer is the banana and clove flavors produced from the yeast fermentation.",
+                  "beer_style":"Hefeweizen",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":{  
+                  "venue_id":3444584,
+                  "venue_name":"Pitfire Artisan Pizza",
+                  "venue_slug":"pitfire-artisan-pizza",
+                  "primary_category":"Food",
+                  "parent_category_id":"4d4b7105d754a06374d81259",
+                  "categories":{  
+                     "count":2,
+                     "items":[  
+                        {  
+                           "category_name":"Pizza Place",
+                           "category_id":"4bf58dd8d48988d1ca941735",
+                           "is_primary":true
+                        },
+                        {  
+                           "category_name":"Shopping Mall",
+                           "category_id":"4bf58dd8d48988d1fd941735",
+                           "is_primary":false
+                        }
+                     ]
+                  },
+                  "location":{  
+                     "venue_address":"966 S Westlake Blvd Ste 3",
+                     "venue_city":"Westlake Village",
+                     "venue_state":"CA",
+                     "venue_country":"United States",
+                     "lat":34.1535,
+                     "lng":-118.826
+                  },
+                  "contact":{  
+                     "twitter":"@pitfirepizza",
+                     "venue_url":"http:\/\/www.pitfirepizza.com"
+                  },
+                  "foursquare":{  
+                     "foursquare_id":"55bedae9498e67cbb5cba88a",
+                     "foursquare_url":"http:\/\/4sq.com\/1KKPQNn"
+                  },
+                  "venue_icon":{  
+                     "sm":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/pizza_bg_64.png",
+                     "md":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/pizza_bg_88.png",
+                     "lg":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/pizza_bg_88.png"
+                  },
+                  "is_verified":false
+               },
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":0,
+                  "count":0,
+                  "auth_toast":false,
+                  "items":[  
+
+                  ]
+               },
+               "media":{  
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for iPhone - (V2)",
+                  "app_website":"http:\/\/untpd.it\/iphoneapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":1,
+                  "items":[  
+                     {  
+                        "badge_id":34605,
+                        "user_badge_id":262208513,
+                        "badge_name":"Hopped Down",
+                        "badge_description":"One cannot live on dank hops alone. Tone down the bitterness and enjoy some smooth flavor. That's 5 different beers with an IBU of 20 or below. Try 5 more for Level 2!",
+                        "created_at":"Tue, 24 Oct 2017 02:03:54 +0000",
+                        "badge_image":{  
+                           "sm":"https:\/\/untappd.akamaized.net\/badges\/bdg_HoppedDown_sm.jpg",
+                           "md":"https:\/\/untappd.akamaized.net\/badges\/bdg_HoppedDown_md.jpg",
+                           "lg":"https:\/\/untappd.akamaized.net\/badges\/bdg_HoppedDown_lg.jpg"
+                        }
+                     }
+                  ]
+               }
+            },
+            {  
+               "checkin_id":519059635,
+               "created_at":"Tue, 24 Oct 2017 02:01:30 +0000",
+               "checkin_comment":"",
+               "rating_score":4,
+               "user":{  
+                  "uid":2839793,
+                  "user_name":"Crichins",
+                  "first_name":"Charles",
+                  "last_name":"R.",
+                  "location":"Simi Valley, Ca",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/untappd.akamaized.net\/profile\/f722ddc33b88e6118031d09a4da9c951_100x100.jpg",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":75231,
+                  "beer_name":"Valkyrie",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                  "beer_abv":6.2,
+                  "beer_ibu":35,
+                  "beer_slug":"enegren-brewing-company-valkyrie",
+                  "beer_description":"Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                  "beer_style":"Altbier",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":{  
+                  "venue_id":4632237,
+                  "venue_name":"Charles Tiki Bar and Cigar Lounge",
+                  "venue_slug":"charles-tiki-bar-and-cigar-lounge",
+                  "primary_category":"Nightlife Spot",
+                  "parent_category_id":"4d4b7105d754a06376d81259",
+                  "categories":{  
+                     "count":1,
+                     "items":[  
+                        {  
+                           "category_name":"Tiki Bar",
+                           "category_id":"56aa371be4b08b9a8d57354d",
+                           "is_primary":true
+                        }
+                     ]
+                  },
+                  "location":{  
+                     "venue_address":"4591 Cochran St Apt 207",
+                     "venue_city":"Simi Valley",
+                     "venue_state":"CA",
+                     "venue_country":"United States",
+                     "lat":34.2792,
+                     "lng":-118.705
+                  },
+                  "contact":{  
+                     "twitter":"",
+                     "venue_url":""
+                  },
+                  "foursquare":{  
+                     "foursquare_id":"571660cf498efc7055db47ed",
+                     "foursquare_url":"http:\/\/4sq.com\/1qCTrVk"
+                  },
+                  "venue_icon":{  
+                     "sm":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/cocktails_bg_64.png",
+                     "md":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/cocktails_bg_88.png",
+                     "lg":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/cocktails_bg_88.png"
+                  },
+                  "is_verified":false
+               },
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":2,
+                  "count":2,
+                  "auth_toast":true,
+                  "items":[  
+                     {  
+                        "uid":116294,
+                        "user":{  
+                           "uid":116294,
+                           "user_name":"EnegrenBrewing",
+                           "first_name":"Enegren Brewing Company",
+                           "last_name":"",
+                           "bio":"",
+                           "location":"",
+                           "user_avatar":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                           "account_type":"brewery",
+                           "venue_details":[  
+
+                           ],
+                           "brewery_details":{  
+                              "brewery_id":14167
+                           },
+                           "user_link":"https:\/\/untappd.com\/brewery\/14167"
+                        },
+                        "like_id":434774985,
+                        "like_owner":true,
+                        "created_at":"Tue, 24 Oct 2017 17:51:05 +0000"
+                     },
+                     {  
+                        "uid":3230488,
+                        "user":{  
+                           "uid":3230488,
+                           "user_name":"Steevobandito",
+                           "first_name":"Steven",
+                           "last_name":"F.",
+                           "bio":"",
+                           "location":"",
+                           "user_avatar":"https:\/\/gravatar.com\/avatar\/4f3cbec6de18939a3e1878c5558054f6?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                           "account_type":"user",
+                           "venue_details":[  
+
+                           ],
+                           "brewery_details":[  
+
+                           ]
+                        },
+                        "like_id":434681818,
+                        "like_owner":false,
+                        "created_at":"Tue, 24 Oct 2017 02:07:05 +0000"
+                     }
+                  ]
+               },
+               "media":{  
+                  "count":1,
+                  "items":[  
+                     {  
+                        "photo_id":144563614,
+                        "photo":{  
+                           "photo_img_sm":"https:\/\/untappd.akamaized.net\/photo\/2017_10_24\/2a5b1261cf347ceec8febc6b69636ffa_100x100.jpg",
+                           "photo_img_md":"https:\/\/untappd.akamaized.net\/photo\/2017_10_24\/2a5b1261cf347ceec8febc6b69636ffa_320x320.jpg",
+                           "photo_img_lg":"https:\/\/untappd.akamaized.net\/photo\/2017_10_24\/2a5b1261cf347ceec8febc6b69636ffa_640x640.jpg",
+                           "photo_img_og":"https:\/\/untappd.akamaized.net\/photo\/2017_10_24\/2a5b1261cf347ceec8febc6b69636ffa_raw.jpg"
+                        }
+                     }
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for iPhone - (V2)",
+                  "app_website":"http:\/\/untpd.it\/iphoneapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               }
+            },
+            {  
+               "checkin_id":519057992,
+               "created_at":"Tue, 24 Oct 2017 01:55:35 +0000",
+               "checkin_comment":"Part of a flight",
+               "rating_score":2.5,
+               "user":{  
+                  "uid":3153292,
+                  "user_name":"RFid99",
+                  "first_name":"Richard",
+                  "last_name":"F.",
+                  "location":"London",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/gravatar.com\/avatar\/6ee32d5886f58e4de24bc97880b172f2?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":1564340,
+                  "beer_name":"The Lightest One",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-1564340_1da0d_sm.jpeg",
+                  "beer_abv":5,
+                  "beer_ibu":21,
+                  "beer_slug":"enegren-brewing-company-the-lightest-one",
+                  "beer_description":"The Lightest One is a 5.0% ABV German-Style Helles Lager. Helles, German for bright, is a crisp, clean, German lager with a touch of hops. For more information on the style, check out the German Beer Institute.\n\nNot only do we love flavorful, easy drinking lagers like this - but now when anyone comes to the brewery and asks us for \"our lightest beer\" we have a quick answer. So, whether you're new to craft beer and are used to beers on the lighter side, or you are just looking for a full-flavored light and refreshing beer, this beer is for you!",
+                  "beer_style":"Lager - Helles",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":{  
+                  "venue_id":3444584,
+                  "venue_name":"Pitfire Artisan Pizza",
+                  "venue_slug":"pitfire-artisan-pizza",
+                  "primary_category":"Food",
+                  "parent_category_id":"4d4b7105d754a06374d81259",
+                  "categories":{  
+                     "count":2,
+                     "items":[  
+                        {  
+                           "category_name":"Pizza Place",
+                           "category_id":"4bf58dd8d48988d1ca941735",
+                           "is_primary":true
+                        },
+                        {  
+                           "category_name":"Shopping Mall",
+                           "category_id":"4bf58dd8d48988d1fd941735",
+                           "is_primary":false
+                        }
+                     ]
+                  },
+                  "location":{  
+                     "venue_address":"966 S Westlake Blvd Ste 3",
+                     "venue_city":"Westlake Village",
+                     "venue_state":"CA",
+                     "venue_country":"United States",
+                     "lat":34.1535,
+                     "lng":-118.826
+                  },
+                  "contact":{  
+                     "twitter":"@pitfirepizza",
+                     "venue_url":"http:\/\/www.pitfirepizza.com"
+                  },
+                  "foursquare":{  
+                     "foursquare_id":"55bedae9498e67cbb5cba88a",
+                     "foursquare_url":"http:\/\/4sq.com\/1KKPQNn"
+                  },
+                  "venue_icon":{  
+                     "sm":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/pizza_bg_64.png",
+                     "md":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/pizza_bg_88.png",
+                     "lg":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/pizza_bg_88.png"
+                  },
+                  "is_verified":false
+               },
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":0,
+                  "count":0,
+                  "auth_toast":false,
+                  "items":[  
+
+                  ]
+               },
+               "media":{  
+                  "count":1,
+                  "items":[  
+                     {  
+                        "photo_id":144563127,
+                        "photo":{  
+                           "photo_img_sm":"https:\/\/untappd.akamaized.net\/photo\/2017_10_24\/219e6b6ecdc3ff109bb46589eaeba844_100x100.jpg",
+                           "photo_img_md":"https:\/\/untappd.akamaized.net\/photo\/2017_10_24\/219e6b6ecdc3ff109bb46589eaeba844_320x320.jpg",
+                           "photo_img_lg":"https:\/\/untappd.akamaized.net\/photo\/2017_10_24\/219e6b6ecdc3ff109bb46589eaeba844_640x640.jpg",
+                           "photo_img_og":"https:\/\/untappd.akamaized.net\/photo\/2017_10_24\/219e6b6ecdc3ff109bb46589eaeba844_raw.jpg"
+                        }
+                     }
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for iPhone - (V2)",
+                  "app_website":"http:\/\/untpd.it\/iphoneapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":2,
+                  "items":[  
+                     {  
+                        "badge_id":284,
+                        "user_badge_id":262205893,
+                        "badge_name":"Lager Jack (Level 8)",
+                        "badge_description":"After a long day, what better way to kick back than with a crisp and refreshing lager? You're already feeling more relaxed, aren't you?. That's 40 different Lagers! Try 5 more to unlock Level 9.",
+                        "created_at":"Tue, 24 Oct 2017 01:55:36 +0000",
+                        "badge_image":{  
+                           "sm":"https:\/\/untappd.akamaized.net\/badges\/bdg_LagerJack_sm.jpg",
+                           "md":"https:\/\/untappd.akamaized.net\/badges\/bdg_LagerJack_md.jpg",
+                           "lg":"https:\/\/untappd.akamaized.net\/badges\/bdg_LagerJack_lg.jpg"
+                        }
+                     },
+                     {  
+                        "badge_id":546,
+                        "user_badge_id":262205894,
+                        "badge_name":"Land of the Free (Level 10)",
+                        "badge_description":"You’ve pledged allegiance, and now it’s time to enjoy some beer! Now remember, not all American beer is fizzy and yellow. That’s 50 different beers from a brewery in the United States. Try 5 more for Level 11.",
+                        "created_at":"Tue, 24 Oct 2017 01:55:36 +0000",
+                        "badge_image":{  
+                           "sm":"https:\/\/untappd.akamaized.net\/badges\/bdg_america_sm.jpg",
+                           "md":"https:\/\/untappd.akamaized.net\/badges\/bdg_america_md.jpg",
+                           "lg":"https:\/\/untappd.akamaized.net\/badges\/bdg_america_lg.jpg"
+                        }
+                     }
+                  ]
+               }
+            },
+            {  
+               "checkin_id":519057482,
+               "created_at":"Tue, 24 Oct 2017 01:53:41 +0000",
+               "checkin_comment":"",
+               "rating_score":4.5,
+               "user":{  
+                  "uid":268986,
+                  "user_name":"LynnTerra",
+                  "first_name":"Lynn",
+                  "last_name":"T.",
+                  "location":"Southern California",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/gravatar.com\/avatar\/ac15d23be15712be93c611c05ce1090b?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":75231,
+                  "beer_name":"Valkyrie",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                  "beer_abv":6.2,
+                  "beer_ibu":35,
+                  "beer_slug":"enegren-brewing-company-valkyrie",
+                  "beer_description":"Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                  "beer_style":"Altbier",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":[  
+
+               ],
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":0,
+                  "count":0,
+                  "auth_toast":false,
+                  "items":[  
+
+                  ]
+               },
+               "media":{  
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for Android - (V2)",
+                  "app_website":"http:\/\/untpd.it\/androidapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               }
+            },
+            {  
+               "checkin_id":518882718,
+               "created_at":"Mon, 23 Oct 2017 06:14:39 +0000",
+               "checkin_comment":"",
+               "rating_score":4,
+               "user":{  
+                  "uid":334018,
+                  "user_name":"mestizo951",
+                  "first_name":"Mike",
+                  "last_name":"C.",
+                  "location":"",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"Sociology geek. Beer nerd.",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/untappd.akamaized.net\/profile\/03656f3dbfba8397e8943231e51fe2f4_100x100.jpeg",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":75231,
+                  "beer_name":"Valkyrie",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                  "beer_abv":6.2,
+                  "beer_ibu":35,
+                  "beer_slug":"enegren-brewing-company-valkyrie",
+                  "beer_description":"Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                  "beer_style":"Altbier",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":[  
+
+               ],
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":0,
+                  "count":0,
+                  "auth_toast":false,
+                  "items":[  
+
+                  ]
+               },
+               "media":{  
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for Android - (V2)",
+                  "app_website":"http:\/\/untpd.it\/androidapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":1,
+                  "items":[  
+                     {  
+                        "badge_id":4857,
+                        "user_badge_id":261996856,
+                        "badge_name":"To The Alt",
+                        "badge_description":"Originating from Germany, the Altbier, or old beer, uses the old school brewing style of top fermentation and is left to condition for longer than normal. That's 5 different beers with the style of Altbier. Try 5 for more Level 2!",
+                        "created_at":"Mon, 23 Oct 2017 06:14:41 +0000",
+                        "badge_image":{  
+                           "sm":"https:\/\/untappd.akamaized.net\/badges\/bdg_AltBier_sm.jpg",
+                           "md":"https:\/\/untappd.akamaized.net\/badges\/bdg_AltBier_md.jpg",
+                           "lg":"https:\/\/untappd.akamaized.net\/badges\/bdg_AltBier_lg.jpg"
+                        }
+                     }
+                  ]
+               }
+            },
+            {  
+               "checkin_id":518826830,
+               "created_at":"Mon, 23 Oct 2017 00:56:52 +0000",
+               "checkin_comment":"",
+               "rating_score":2.75,
+               "user":{  
+                  "uid":3195794,
+                  "user_name":"cervejohn",
+                  "first_name":"John",
+                  "last_name":"S.",
+                  "location":"",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/untappd.akamaized.net\/profile\/1a3ceb85cc31c3380c726d32ed3477d9_100x100.jpg",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":75231,
+                  "beer_name":"Valkyrie",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-75231_c3368_sm.jpeg",
+                  "beer_abv":6.2,
+                  "beer_ibu":35,
+                  "beer_slug":"enegren-brewing-company-valkyrie",
+                  "beer_description":"Valkyrie is brewed following the traditions of one of the oldest beer styles in Germany - “alt” literally means “old” in German. Brewed with over 60% imported Munich Dark Malt, this beer is smooth with strong malt, caramel and toasty flavors.  German Noble hops round out the beer with a nice floral finish. ",
+                  "beer_style":"Altbier",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":[  
+
+               ],
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":0,
+                  "count":0,
+                  "auth_toast":false,
+                  "items":[  
+
+                  ]
+               },
+               "media":{  
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for iPhone - (V2)",
+                  "app_website":"http:\/\/untpd.it\/iphoneapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":1,
+                  "items":[  
+                     {  
+                        "badge_id":133556,
+                        "user_badge_id":261937807,
+                        "badge_name":"Untappd 7th Anniversary",
+                        "badge_description":"Another year of drinking socially down. Thank you for continuing to discover new beer, venues, and of course checking in. Cheers to seven years!",
+                        "created_at":"Mon, 23 Oct 2017 00:56:52 +0000",
+                        "badge_image":{  
+                           "sm":"https:\/\/untappd.akamaized.net\/badges\/bdg_SevenYearAnniv_sm.jpg",
+                           "md":"https:\/\/untappd.akamaized.net\/badges\/bdg_SevenYearAnniv_md.jpg",
+                           "lg":"https:\/\/untappd.akamaized.net\/badges\/bdg_SevenYearAnniv_lg.jpg"
+                        }
+                     }
+                  ]
+               }
+            },
+            {  
+               "checkin_id":518821545,
+               "created_at":"Mon, 23 Oct 2017 00:43:58 +0000",
+               "checkin_comment":"",
+               "rating_score":4,
+               "user":{  
+                  "uid":1248520,
+                  "user_name":"MGlenny88",
+                  "first_name":"GlennyTheYounger",
+                  "last_name":"",
+                  "location":"",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/untappd.akamaized.net\/profile\/3886a2b8008c96e0268b5685d72adbe8_100x100.jpg",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":1933762,
+                  "beer_name":"Enegren IPA",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                  "beer_abv":6.8,
+                  "beer_ibu":67,
+                  "beer_slug":"enegren-brewing-company-enegren-ipa",
+                  "beer_description":"",
+                  "beer_style":"IPA - American",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":{  
+                  "venue_id":76076,
+                  "venue_name":"Enegren Brewing Company",
+                  "venue_slug":"enegren-brewing-company",
+                  "primary_category":"Nightlife Spot",
+                  "parent_category_id":"4d4b7105d754a06376d81259",
+                  "categories":{  
+                     "count":1,
+                     "items":[  
+                        {  
+                           "category_name":"Brewery",
+                           "category_id":"50327c8591d4c4b30a586d5d",
+                           "is_primary":true
+                        }
+                     ]
+                  },
+                  "location":{  
+                     "venue_address":"680 Flinn Ave",
+                     "venue_city":"Moorpark",
+                     "venue_state":"CA",
+                     "venue_country":"United States",
+                     "lat":34.283,
+                     "lng":-118.871
+                  },
+                  "contact":{  
+                     "twitter":"",
+                     "venue_url":"http:\/\/enegrenbrewing.com"
+                  },
+                  "foursquare":{  
+                     "foursquare_id":"4e0f5ce81f6e9964ea2c5387",
+                     "foursquare_url":"http:\/\/4sq.com\/mtA6FP"
+                  },
+                  "venue_icon":{  
+                     "sm":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_64.png",
+                     "md":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_88.png",
+                     "lg":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_88.png"
+                  },
+                  "is_verified":false
+               },
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":1,
+                  "count":1,
+                  "auth_toast":false,
+                  "items":[  
+                     {  
+                        "uid":38887,
+                        "user":{  
+                           "uid":38887,
+                           "user_name":"SuburbiaBrewCo",
+                           "first_name":"Todd",
+                           "last_name":"S.",
+                           "bio":"San Diego USA \/\/ #JerseyBorn ©1972 \/ Father \/ Husband \/ Executive \/ Club Team Cyclist \/ AHA Member Home Brewer \/ BMWCCA",
+                           "location":"San Diego, CA",
+                           "user_avatar":"https:\/\/untappd.akamaized.net\/profile\/5d038b61b2dbdf50c7a4ab61e7da3e5a_100x100.jpg",
+                           "account_type":"user",
+                           "venue_details":[  
+
+                           ],
+                           "brewery_details":[  
+
+                           ]
+                        },
+                        "like_id":434467764,
+                        "like_owner":false,
+                        "created_at":"Mon, 23 Oct 2017 04:26:05 +0000"
+                     }
+                  ]
+               },
+               "media":{  
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for Android - (V2)",
+                  "app_website":"http:\/\/untpd.it\/androidapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":1,
+                  "items":[  
+                     {  
+                        "badge_id":34720,
+                        "user_badge_id":261932028,
+                        "badge_name":"Middle of the Road (Level 16)",
+                        "badge_description":"Looking for more kick than a session beer, but want to be able to stay for a few rounds? You have to keep it in the middle. That's 80 beers with an ABV greater than 5% and less than 10%. Try 5 more Level 17!",
+                        "created_at":"Mon, 23 Oct 2017 00:43:59 +0000",
+                        "badge_image":{  
+                           "sm":"https:\/\/untappd.akamaized.net\/badges\/bdg_middle-of-the-road_sm.jpg",
+                           "md":"https:\/\/untappd.akamaized.net\/badges\/bdg_middle-of-the-road_md.jpg",
+                           "lg":"https:\/\/untappd.akamaized.net\/badges\/bdg_middle-of-the-road_lg.jpg"
+                        }
+                     }
+                  ]
+               }
+            },
+            {  
+               "checkin_id":518804435,
+               "created_at":"Mon, 23 Oct 2017 00:03:27 +0000",
+               "checkin_comment":"",
+               "rating_score":3.75,
+               "user":{  
+                  "uid":1347182,
+                  "user_name":"Erachel86",
+                  "first_name":"Erica",
+                  "last_name":"H.",
+                  "location":"",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/untappd.akamaized.net\/profile\/8dab00f9d648064e71a5f7a4fe758c17_100x100.jpg",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":1125653,
+                  "beer_name":"Schoner Tag",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                  "beer_abv":4.7,
+                  "beer_ibu":14,
+                  "beer_slug":"enegren-brewing-company-schoner-tag",
+                  "beer_description":"Schoner Tag, which means 'Beautiful Day' in German, is a traditional Bavarian-style hefeweizen. Brewed with over 50% malted wheat, the beer is cloudy from the higher proteins in wheat. The signature flavor in this beer is the banana and clove flavors produced from the yeast fermentation.",
+                  "beer_style":"Hefeweizen",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":{  
+                  "venue_id":76076,
+                  "venue_name":"Enegren Brewing Company",
+                  "venue_slug":"enegren-brewing-company",
+                  "primary_category":"Nightlife Spot",
+                  "parent_category_id":"4d4b7105d754a06376d81259",
+                  "categories":{  
+                     "count":1,
+                     "items":[  
+                        {  
+                           "category_name":"Brewery",
+                           "category_id":"50327c8591d4c4b30a586d5d",
+                           "is_primary":true
+                        }
+                     ]
+                  },
+                  "location":{  
+                     "venue_address":"680 Flinn Ave",
+                     "venue_city":"Moorpark",
+                     "venue_state":"CA",
+                     "venue_country":"United States",
+                     "lat":34.283,
+                     "lng":-118.871
+                  },
+                  "contact":{  
+                     "twitter":"",
+                     "venue_url":"http:\/\/enegrenbrewing.com"
+                  },
+                  "foursquare":{  
+                     "foursquare_id":"4e0f5ce81f6e9964ea2c5387",
+                     "foursquare_url":"http:\/\/4sq.com\/mtA6FP"
+                  },
+                  "venue_icon":{  
+                     "sm":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_64.png",
+                     "md":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_88.png",
+                     "lg":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_88.png"
+                  },
+                  "is_verified":false
+               },
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":1,
+                  "count":1,
+                  "auth_toast":false,
+                  "items":[  
+                     {  
+                        "uid":1333008,
+                        "user":{  
+                           "uid":1333008,
+                           "user_name":"coachhagin",
+                           "first_name":"Garrett",
+                           "last_name":"H.",
+                           "bio":"",
+                           "location":"",
+                           "user_avatar":"https:\/\/untappd.akamaized.net\/profile\/75c61ff474c66e06fd9552871e732152_100x100.jpg",
+                           "account_type":"user",
+                           "venue_details":[  
+
+                           ],
+                           "brewery_details":[  
+
+                           ]
+                        },
+                        "like_id":434561824,
+                        "like_owner":false,
+                        "created_at":"Mon, 23 Oct 2017 18:34:23 +0000"
+                     }
+                  ]
+               },
+               "media":{  
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for iPhone - (V2)",
+                  "app_website":"http:\/\/untpd.it\/iphoneapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":1,
+                  "items":[  
+                     {  
+                        "badge_id":34606,
+                        "user_badge_id":261913621,
+                        "badge_name":"Hopped Down (Level 2)",
+                        "badge_description":"One cannot live on dank hops alone. Tone down the bitterness and enjoy some smooth flavor. That's 10 different beers with an IBU of 20 or below. Try 5 more for Level 3!",
+                        "created_at":"Mon, 23 Oct 2017 00:03:28 +0000",
+                        "badge_image":{  
+                           "sm":"https:\/\/untappd.akamaized.net\/badges\/bdg_HoppedDown_sm.jpg",
+                           "md":"https:\/\/untappd.akamaized.net\/badges\/bdg_HoppedDown_md.jpg",
+                           "lg":"https:\/\/untappd.akamaized.net\/badges\/bdg_HoppedDown_lg.jpg"
+                        }
+                     }
+                  ]
+               }
+            },
+            {  
+               "checkin_id":518802763,
+               "created_at":"Sun, 22 Oct 2017 23:59:33 +0000",
+               "checkin_comment":"",
+               "rating_score":4.25,
+               "user":{  
+                  "uid":1347182,
+                  "user_name":"Erachel86",
+                  "first_name":"Erica",
+                  "last_name":"H.",
+                  "location":"",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/untappd.akamaized.net\/profile\/8dab00f9d648064e71a5f7a4fe758c17_100x100.jpg",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":2033567,
+                  "beer_name":"Nighthawk",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                  "beer_abv":4.7,
+                  "beer_ibu":0,
+                  "beer_slug":"enegren-brewing-company-nighthawk",
+                  "beer_description":"Nighthawk,  our traditional Schwarzbier  (black lager) smells of earthy dark roasted coffee and tastes of rich extra dark chocolate. A perfect light beer during the summer for the dark beer lover.",
+                  "beer_style":"Schwarzbier",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":{  
+                  "venue_id":76076,
+                  "venue_name":"Enegren Brewing Company",
+                  "venue_slug":"enegren-brewing-company",
+                  "primary_category":"Nightlife Spot",
+                  "parent_category_id":"4d4b7105d754a06376d81259",
+                  "categories":{  
+                     "count":1,
+                     "items":[  
+                        {  
+                           "category_name":"Brewery",
+                           "category_id":"50327c8591d4c4b30a586d5d",
+                           "is_primary":true
+                        }
+                     ]
+                  },
+                  "location":{  
+                     "venue_address":"680 Flinn Ave",
+                     "venue_city":"Moorpark",
+                     "venue_state":"CA",
+                     "venue_country":"United States",
+                     "lat":34.283,
+                     "lng":-118.871
+                  },
+                  "contact":{  
+                     "twitter":"",
+                     "venue_url":"http:\/\/enegrenbrewing.com"
+                  },
+                  "foursquare":{  
+                     "foursquare_id":"4e0f5ce81f6e9964ea2c5387",
+                     "foursquare_url":"http:\/\/4sq.com\/mtA6FP"
+                  },
+                  "venue_icon":{  
+                     "sm":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_64.png",
+                     "md":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_88.png",
+                     "lg":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_88.png"
+                  },
+                  "is_verified":false
+               },
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":0,
+                  "count":0,
+                  "auth_toast":false,
+                  "items":[  
+
+                  ]
+               },
+               "media":{  
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for iPhone - (V2)",
+                  "app_website":"http:\/\/untpd.it\/iphoneapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               }
+            },
+            {  
+               "checkin_id":518802574,
+               "created_at":"Sun, 22 Oct 2017 23:59:09 +0000",
+               "checkin_comment":"",
+               "rating_score":3.5,
+               "user":{  
+                  "uid":1248520,
+                  "user_name":"MGlenny88",
+                  "first_name":"GlennyTheYounger",
+                  "last_name":"",
+                  "location":"",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/untappd.akamaized.net\/profile\/3886a2b8008c96e0268b5685d72adbe8_100x100.jpg",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":2104566,
+                  "beer_name":"Blondfire Smoked Helles",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-2104566_2d7ed_sm.jpeg",
+                  "beer_abv":4.8,
+                  "beer_ibu":21,
+                  "beer_slug":"enegren-brewing-company-blondfire-smoked-helles",
+                  "beer_description":"Bamberg style smoked light lager made with 100% smoked malt.",
+                  "beer_style":"Smoked Beer",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":[  
+
+               ],
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":0,
+                  "count":0,
+                  "auth_toast":false,
+                  "items":[  
+
+                  ]
+               },
+               "media":{  
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for Android - (V2)",
+                  "app_website":"http:\/\/untpd.it\/androidapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               }
+            },
+            {  
+               "checkin_id":518802486,
+               "created_at":"Sun, 22 Oct 2017 23:58:57 +0000",
+               "checkin_comment":"",
+               "rating_score":4,
+               "user":{  
+                  "uid":1347182,
+                  "user_name":"Erachel86",
+                  "first_name":"Erica",
+                  "last_name":"H.",
+                  "location":"",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/untappd.akamaized.net\/profile\/8dab00f9d648064e71a5f7a4fe758c17_100x100.jpg",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":2104566,
+                  "beer_name":"Blondfire Smoked Helles",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-2104566_2d7ed_sm.jpeg",
+                  "beer_abv":4.8,
+                  "beer_ibu":21,
+                  "beer_slug":"enegren-brewing-company-blondfire-smoked-helles",
+                  "beer_description":"Bamberg style smoked light lager made with 100% smoked malt.",
+                  "beer_style":"Smoked Beer",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":{  
+                  "venue_id":76076,
+                  "venue_name":"Enegren Brewing Company",
+                  "venue_slug":"enegren-brewing-company",
+                  "primary_category":"Nightlife Spot",
+                  "parent_category_id":"4d4b7105d754a06376d81259",
+                  "categories":{  
+                     "count":1,
+                     "items":[  
+                        {  
+                           "category_name":"Brewery",
+                           "category_id":"50327c8591d4c4b30a586d5d",
+                           "is_primary":true
+                        }
+                     ]
+                  },
+                  "location":{  
+                     "venue_address":"680 Flinn Ave",
+                     "venue_city":"Moorpark",
+                     "venue_state":"CA",
+                     "venue_country":"United States",
+                     "lat":34.283,
+                     "lng":-118.871
+                  },
+                  "contact":{  
+                     "twitter":"",
+                     "venue_url":"http:\/\/enegrenbrewing.com"
+                  },
+                  "foursquare":{  
+                     "foursquare_id":"4e0f5ce81f6e9964ea2c5387",
+                     "foursquare_url":"http:\/\/4sq.com\/mtA6FP"
+                  },
+                  "venue_icon":{  
+                     "sm":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_64.png",
+                     "md":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_88.png",
+                     "lg":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_88.png"
+                  },
+                  "is_verified":false
+               },
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":0,
+                  "count":0,
+                  "auth_toast":false,
+                  "items":[  
+
+                  ]
+               },
+               "media":{  
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for iPhone - (V2)",
+                  "app_website":"http:\/\/untpd.it\/iphoneapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":1,
+                  "items":[  
+                     {  
+                        "badge_id":133556,
+                        "user_badge_id":261911695,
+                        "badge_name":"Untappd 7th Anniversary",
+                        "badge_description":"Another year of drinking socially down. Thank you for continuing to discover new beer, venues, and of course checking in. Cheers to seven years!",
+                        "created_at":"Sun, 22 Oct 2017 23:58:58 +0000",
+                        "badge_image":{  
+                           "sm":"https:\/\/untappd.akamaized.net\/badges\/bdg_SevenYearAnniv_sm.jpg",
+                           "md":"https:\/\/untappd.akamaized.net\/badges\/bdg_SevenYearAnniv_md.jpg",
+                           "lg":"https:\/\/untappd.akamaized.net\/badges\/bdg_SevenYearAnniv_lg.jpg"
+                        }
+                     }
+                  ]
+               }
+            },
+            {  
+               "checkin_id":518802373,
+               "created_at":"Sun, 22 Oct 2017 23:58:41 +0000",
+               "checkin_comment":"",
+               "rating_score":4,
+               "user":{  
+                  "uid":1248520,
+                  "user_name":"MGlenny88",
+                  "first_name":"GlennyTheYounger",
+                  "last_name":"",
+                  "location":"",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/untappd.akamaized.net\/profile\/3886a2b8008c96e0268b5685d72adbe8_100x100.jpg",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":2033567,
+                  "beer_name":"Nighthawk",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                  "beer_abv":4.7,
+                  "beer_ibu":0,
+                  "beer_slug":"enegren-brewing-company-nighthawk",
+                  "beer_description":"Nighthawk,  our traditional Schwarzbier  (black lager) smells of earthy dark roasted coffee and tastes of rich extra dark chocolate. A perfect light beer during the summer for the dark beer lover.",
+                  "beer_style":"Schwarzbier",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":{  
+                  "venue_id":76076,
+                  "venue_name":"Enegren Brewing Company",
+                  "venue_slug":"enegren-brewing-company",
+                  "primary_category":"Nightlife Spot",
+                  "parent_category_id":"4d4b7105d754a06376d81259",
+                  "categories":{  
+                     "count":1,
+                     "items":[  
+                        {  
+                           "category_name":"Brewery",
+                           "category_id":"50327c8591d4c4b30a586d5d",
+                           "is_primary":true
+                        }
+                     ]
+                  },
+                  "location":{  
+                     "venue_address":"680 Flinn Ave",
+                     "venue_city":"Moorpark",
+                     "venue_state":"CA",
+                     "venue_country":"United States",
+                     "lat":34.283,
+                     "lng":-118.871
+                  },
+                  "contact":{  
+                     "twitter":"",
+                     "venue_url":"http:\/\/enegrenbrewing.com"
+                  },
+                  "foursquare":{  
+                     "foursquare_id":"4e0f5ce81f6e9964ea2c5387",
+                     "foursquare_url":"http:\/\/4sq.com\/mtA6FP"
+                  },
+                  "venue_icon":{  
+                     "sm":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_64.png",
+                     "md":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_88.png",
+                     "lg":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_bg_88.png"
+                  },
+                  "is_verified":false
+               },
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":0,
+                  "count":0,
+                  "auth_toast":false,
+                  "items":[  
+
+                  ]
+               },
+               "media":{  
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for Android - (V2)",
+                  "app_website":"http:\/\/untpd.it\/androidapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               }
+            },
+            {  
+               "checkin_id":518789851,
+               "created_at":"Sun, 22 Oct 2017 23:30:10 +0000",
+               "checkin_comment":"",
+               "rating_score":4,
+               "user":{  
+                  "uid":3287254,
+                  "user_name":"egordon9",
+                  "first_name":"E",
+                  "last_name":"G.",
+                  "location":"",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/gravatar.com\/avatar\/8798c5178b29d07566a860d63528c52d?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":2033567,
+                  "beer_name":"Nighthawk",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                  "beer_abv":4.7,
+                  "beer_ibu":0,
+                  "beer_slug":"enegren-brewing-company-nighthawk",
+                  "beer_description":"Nighthawk,  our traditional Schwarzbier  (black lager) smells of earthy dark roasted coffee and tastes of rich extra dark chocolate. A perfect light beer during the summer for the dark beer lover.",
+                  "beer_style":"Schwarzbier",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":{  
+                  "venue_id":638318,
+                  "venue_name":"STACKED",
+                  "venue_slug":"stacked",
+                  "primary_category":"Food",
+                  "parent_category_id":"4d4b7105d754a06374d81259",
+                  "categories":{  
+                     "count":2,
+                     "items":[  
+                        {  
+                           "category_name":"American Restaurant",
+                           "category_id":"4bf58dd8d48988d14e941735",
+                           "is_primary":true
+                        },
+                        {  
+                           "category_name":"Shopping Mall",
+                           "category_id":"4bf58dd8d48988d1fd941735",
+                           "is_primary":false
+                        }
+                     ]
+                  },
+                  "location":{  
+                     "venue_address":"446 W Hillcrest Dr",
+                     "venue_city":"Thousand Oaks",
+                     "venue_state":"CA",
+                     "venue_country":"United States",
+                     "lat":34.1846,
+                     "lng":-118.888
+                  },
+                  "contact":{  
+                     "twitter":"@foodwellbuilt",
+                     "venue_url":"http:\/\/www.stacked.com"
+                  },
+                  "foursquare":{  
+                     "foursquare_id":"50870cb5e4b06f0c9efe9b6d",
+                     "foursquare_url":"http:\/\/4sq.com\/Tx2W6o"
+                  },
+                  "venue_icon":{  
+                     "sm":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/default_bg_64.png",
+                     "md":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/default_bg_88.png",
+                     "lg":"https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/default_bg_88.png"
+                  },
+                  "is_verified":false
+               },
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":3,
+                  "count":3,
+                  "auth_toast":true,
+                  "items":[  
+                     {  
+                        "uid":116294,
+                        "user":{  
+                           "uid":116294,
+                           "user_name":"EnegrenBrewing",
+                           "first_name":"Enegren Brewing Company",
+                           "last_name":"",
+                           "bio":"",
+                           "location":"",
+                           "user_avatar":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                           "account_type":"brewery",
+                           "venue_details":[  
+
+                           ],
+                           "brewery_details":{  
+                              "brewery_id":14167
+                           },
+                           "user_link":"https:\/\/untappd.com\/brewery\/14167"
+                        },
+                        "like_id":434566989,
+                        "like_owner":true,
+                        "created_at":"Mon, 23 Oct 2017 18:56:54 +0000"
+                     },
+                     {  
+                        "uid":52840,
+                        "user":{  
+                           "uid":52840,
+                           "user_name":"debone44",
+                           "first_name":"christian",
+                           "last_name":"d.",
+                           "bio":"",
+                           "location":"astoria, ny",
+                           "user_avatar":"https:\/\/gravatar.com\/avatar\/965faa203c5fac77d38b9ce13937f5c0?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                           "account_type":"user",
+                           "venue_details":[  
+
+                           ],
+                           "brewery_details":[  
+
+                           ]
+                        },
+                        "like_id":434381251,
+                        "like_owner":false,
+                        "created_at":"Sun, 22 Oct 2017 23:53:30 +0000"
+                     },
+                     {  
+                        "uid":2284740,
+                        "user":{  
+                           "uid":2284740,
+                           "user_name":"ddcoletti",
+                           "first_name":"David",
+                           "last_name":"C.",
+                           "bio":"",
+                           "location":"",
+                           "user_avatar":"https:\/\/untappd.akamaized.net\/profile\/2e9debe5b3096ca77aab9f7a3a7f54ed_100x100.jpg",
+                           "account_type":"user",
+                           "venue_details":[  
+
+                           ],
+                           "brewery_details":[  
+
+                           ]
+                        },
+                        "like_id":434370852,
+                        "like_owner":false,
+                        "created_at":"Sun, 22 Oct 2017 23:31:11 +0000"
+                     }
+                  ]
+               },
+               "media":{  
+                  "count":1,
+                  "items":[  
+                     {  
+                        "photo_id":144474892,
+                        "photo":{  
+                           "photo_img_sm":"https:\/\/untappd.akamaized.net\/photo\/2017_10_22\/45337a1998e1238ececd2aa43171073e_100x100.jpg",
+                           "photo_img_md":"https:\/\/untappd.akamaized.net\/photo\/2017_10_22\/45337a1998e1238ececd2aa43171073e_320x320.jpg",
+                           "photo_img_lg":"https:\/\/untappd.akamaized.net\/photo\/2017_10_22\/45337a1998e1238ececd2aa43171073e_640x640.jpg",
+                           "photo_img_og":"https:\/\/untappd.akamaized.net\/photo\/2017_10_22\/45337a1998e1238ececd2aa43171073e_raw.jpg"
+                        }
+                     }
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for iPhone - (V2)",
+                  "app_website":"http:\/\/untpd.it\/iphoneapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               }
+            },
+            {  
+               "checkin_id":518738076,
+               "created_at":"Sun, 22 Oct 2017 21:47:52 +0000",
+               "checkin_comment":"",
+               "rating_score":3.5,
+               "user":{  
+                  "uid":3588604,
+                  "user_name":"brewpop26",
+                  "first_name":"steve",
+                  "last_name":"t.",
+                  "location":"",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/gravatar.com\/avatar\/b86eaaf10a31e57c521797a63afd86ed?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":2289197,
+                  "beer_name":"Nebulager",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                  "beer_abv":8.3,
+                  "beer_ibu":62,
+                  "beer_slug":"enegren-brewing-company-nebulager",
+                  "beer_description":"Unfiltered Galaxy Hopped Double IPL",
+                  "beer_style":"Lager - IPL (India Pale Lager)",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":{  
+                  "venue_id":4189068,
+                  "venue_name":"Enegren Brewing Co.",
+                  "venue_slug":"enegren-brewing-co",
+                  "primary_category":null,
+                  "parent_category_id":null,
+                  "categories":{  
+                     "count":0,
+                     "items":[  
+
+                     ]
+                  },
+                  "location":{  
+                     "venue_address":"",
+                     "venue_city":"Moorpark",
+                     "venue_state":"CA",
+                     "venue_country":"United States",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "contact":{  
+                     "twitter":"",
+                     "venue_url":""
+                  },
+                  "foursquare":{  
+                     "foursquare_id":"54f6b652498e5617cf66d7c4",
+                     "foursquare_url":"http:\/\/4sq.com\/1RURFqW"
+                  },
+                  "venue_icon":{  
+                     "sm":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_64.png",
+                     "md":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_88.png",
+                     "lg":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_88.png"
+                  },
+                  "is_verified":false
+               },
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":1,
+                  "count":1,
+                  "auth_toast":true,
+                  "items":[  
+                     {  
+                        "uid":116294,
+                        "user":{  
+                           "uid":116294,
+                           "user_name":"EnegrenBrewing",
+                           "first_name":"Enegren Brewing Company",
+                           "last_name":"",
+                           "bio":"",
+                           "location":"",
+                           "user_avatar":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                           "account_type":"brewery",
+                           "venue_details":[  
+
+                           ],
+                           "brewery_details":{  
+                              "brewery_id":14167
+                           },
+                           "user_link":"https:\/\/untappd.com\/brewery\/14167"
+                        },
+                        "like_id":434567008,
+                        "like_owner":true,
+                        "created_at":"Mon, 23 Oct 2017 18:56:59 +0000"
+                     }
+                  ]
+               },
+               "media":{  
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for iPhone - (V2)",
+                  "app_website":"http:\/\/untpd.it\/iphoneapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               }
+            },
+            {  
+               "checkin_id":518737080,
+               "created_at":"Sun, 22 Oct 2017 21:46:06 +0000",
+               "checkin_comment":"Almost as good as my version",
+               "rating_score":3.25,
+               "user":{  
+                  "uid":3588604,
+                  "user_name":"brewpop26",
+                  "first_name":"steve",
+                  "last_name":"t.",
+                  "location":"",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/gravatar.com\/avatar\/b86eaaf10a31e57c521797a63afd86ed?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":2279072,
+                  "beer_name":"Dunkelweizen",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                  "beer_abv":5.3,
+                  "beer_ibu":18,
+                  "beer_slug":"enegren-brewing-company-dunkelweizen",
+                  "beer_description":"Bavarian Dark Wheat",
+                  "beer_style":"Dunkelweizen",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":{  
+                  "venue_id":4189068,
+                  "venue_name":"Enegren Brewing Co.",
+                  "venue_slug":"enegren-brewing-co",
+                  "primary_category":null,
+                  "parent_category_id":null,
+                  "categories":{  
+                     "count":0,
+                     "items":[  
+
+                     ]
+                  },
+                  "location":{  
+                     "venue_address":"",
+                     "venue_city":"Moorpark",
+                     "venue_state":"CA",
+                     "venue_country":"United States",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "contact":{  
+                     "twitter":"",
+                     "venue_url":""
+                  },
+                  "foursquare":{  
+                     "foursquare_id":"54f6b652498e5617cf66d7c4",
+                     "foursquare_url":"http:\/\/4sq.com\/1RURFqW"
+                  },
+                  "venue_icon":{  
+                     "sm":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_64.png",
+                     "md":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_88.png",
+                     "lg":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_88.png"
+                  },
+                  "is_verified":false
+               },
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":1,
+                  "count":1,
+                  "auth_toast":true,
+                  "items":[  
+                     {  
+                        "uid":116294,
+                        "user":{  
+                           "uid":116294,
+                           "user_name":"EnegrenBrewing",
+                           "first_name":"Enegren Brewing Company",
+                           "last_name":"",
+                           "bio":"",
+                           "location":"",
+                           "user_avatar":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                           "account_type":"brewery",
+                           "venue_details":[  
+
+                           ],
+                           "brewery_details":{  
+                              "brewery_id":14167
+                           },
+                           "user_link":"https:\/\/untappd.com\/brewery\/14167"
+                        },
+                        "like_id":434567015,
+                        "like_owner":true,
+                        "created_at":"Mon, 23 Oct 2017 18:57:01 +0000"
+                     }
+                  ]
+               },
+               "media":{  
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for iPhone - (V2)",
+                  "app_website":"http:\/\/untpd.it\/iphoneapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":1,
+                  "items":[  
+                     {  
+                        "badge_id":2011,
+                        "user_badge_id":261839304,
+                        "badge_name":"Land of the Free  (Level 25)",
+                        "badge_description":"You’ve pledged allegiance, and now it’s time to enjoy some beer! Now remember, not all American beer is fizzy and yellow. That’s 125 different beers from a brewery in the United States. Try 5 more for Level 26.",
+                        "created_at":"Sun, 22 Oct 2017 21:46:06 +0000",
+                        "badge_image":{  
+                           "sm":"https:\/\/untappd.akamaized.net\/badges\/bdg_america_sm.jpg",
+                           "md":"https:\/\/untappd.akamaized.net\/badges\/bdg_america_md.jpg",
+                           "lg":"https:\/\/untappd.akamaized.net\/badges\/bdg_america_lg.jpg"
+                        }
+                     }
+                  ]
+               }
+            },
+            {  
+               "checkin_id":518735953,
+               "created_at":"Sun, 22 Oct 2017 21:44:07 +0000",
+               "checkin_comment":"Not a fan of the smoke",
+               "rating_score":1.75,
+               "user":{  
+                  "uid":3588604,
+                  "user_name":"brewpop26",
+                  "first_name":"steve",
+                  "last_name":"t.",
+                  "location":"",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/gravatar.com\/avatar\/b86eaaf10a31e57c521797a63afd86ed?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":2104566,
+                  "beer_name":"Blondfire Smoked Helles",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-2104566_2d7ed_sm.jpeg",
+                  "beer_abv":4.8,
+                  "beer_ibu":21,
+                  "beer_slug":"enegren-brewing-company-blondfire-smoked-helles",
+                  "beer_description":"Bamberg style smoked light lager made with 100% smoked malt.",
+                  "beer_style":"Smoked Beer",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":{  
+                  "venue_id":4189068,
+                  "venue_name":"Enegren Brewing Co.",
+                  "venue_slug":"enegren-brewing-co",
+                  "primary_category":null,
+                  "parent_category_id":null,
+                  "categories":{  
+                     "count":0,
+                     "items":[  
+
+                     ]
+                  },
+                  "location":{  
+                     "venue_address":"",
+                     "venue_city":"Moorpark",
+                     "venue_state":"CA",
+                     "venue_country":"United States",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "contact":{  
+                     "twitter":"",
+                     "venue_url":""
+                  },
+                  "foursquare":{  
+                     "foursquare_id":"54f6b652498e5617cf66d7c4",
+                     "foursquare_url":"http:\/\/4sq.com\/1RURFqW"
+                  },
+                  "venue_icon":{  
+                     "sm":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_64.png",
+                     "md":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_88.png",
+                     "lg":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_88.png"
+                  },
+                  "is_verified":false
+               },
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":1,
+                  "count":1,
+                  "auth_toast":true,
+                  "items":[  
+                     {  
+                        "uid":116294,
+                        "user":{  
+                           "uid":116294,
+                           "user_name":"EnegrenBrewing",
+                           "first_name":"Enegren Brewing Company",
+                           "last_name":"",
+                           "bio":"",
+                           "location":"",
+                           "user_avatar":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                           "account_type":"brewery",
+                           "venue_details":[  
+
+                           ],
+                           "brewery_details":{  
+                              "brewery_id":14167
+                           },
+                           "user_link":"https:\/\/untappd.com\/brewery\/14167"
+                        },
+                        "like_id":434567021,
+                        "like_owner":true,
+                        "created_at":"Mon, 23 Oct 2017 18:57:03 +0000"
+                     }
+                  ]
+               },
+               "media":{  
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for iPhone - (V2)",
+                  "app_website":"http:\/\/untpd.it\/iphoneapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":1,
+                  "items":[  
+                     {  
+                        "badge_id":5641,
+                        "user_badge_id":261837971,
+                        "badge_name":"Wheel of Styles (Level 12)",
+                        "badge_description":"Round and round the wheel goes! Which style you’ll be drinking, nobody knows! Your desire to explore different styles is inspiring. Keep it up! That's a check-in to at least 60 different styles. Try 5 more for Level 13!",
+                        "created_at":"Sun, 22 Oct 2017 21:44:08 +0000",
+                        "badge_image":{  
+                           "sm":"https:\/\/untappd.akamaized.net\/badges\/bdg_WheelofStyles_sm.jpg",
+                           "md":"https:\/\/untappd.akamaized.net\/badges\/bdg_WheelofStyles_md.jpg",
+                           "lg":"https:\/\/untappd.akamaized.net\/badges\/bdg_WheelofStyles_lg.jpg"
+                        }
+                     }
+                  ]
+               }
+            },
+            {  
+               "checkin_id":518735272,
+               "created_at":"Sun, 22 Oct 2017 21:42:54 +0000",
+               "checkin_comment":"",
+               "rating_score":3.25,
+               "user":{  
+                  "uid":3588604,
+                  "user_name":"brewpop26",
+                  "first_name":"steve",
+                  "last_name":"t.",
+                  "location":"",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/gravatar.com\/avatar\/b86eaaf10a31e57c521797a63afd86ed?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":2320012,
+                  "beer_name":"Keller Fresh",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                  "beer_abv":5.4,
+                  "beer_ibu":0,
+                  "beer_slug":"enegren-brewing-company-keller-fresh",
+                  "beer_description":"Wet hopped keller style lager served unfiltered.",
+                  "beer_style":"Kellerbier \/ Zwickelbier",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":{  
+                  "venue_id":4189068,
+                  "venue_name":"Enegren Brewing Co.",
+                  "venue_slug":"enegren-brewing-co",
+                  "primary_category":null,
+                  "parent_category_id":null,
+                  "categories":{  
+                     "count":0,
+                     "items":[  
+
+                     ]
+                  },
+                  "location":{  
+                     "venue_address":"",
+                     "venue_city":"Moorpark",
+                     "venue_state":"CA",
+                     "venue_country":"United States",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "contact":{  
+                     "twitter":"",
+                     "venue_url":""
+                  },
+                  "foursquare":{  
+                     "foursquare_id":"54f6b652498e5617cf66d7c4",
+                     "foursquare_url":"http:\/\/4sq.com\/1RURFqW"
+                  },
+                  "venue_icon":{  
+                     "sm":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_64.png",
+                     "md":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_88.png",
+                     "lg":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_88.png"
+                  },
+                  "is_verified":false
+               },
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":1,
+                  "count":1,
+                  "auth_toast":true,
+                  "items":[  
+                     {  
+                        "uid":116294,
+                        "user":{  
+                           "uid":116294,
+                           "user_name":"EnegrenBrewing",
+                           "first_name":"Enegren Brewing Company",
+                           "last_name":"",
+                           "bio":"",
+                           "location":"",
+                           "user_avatar":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                           "account_type":"brewery",
+                           "venue_details":[  
+
+                           ],
+                           "brewery_details":{  
+                              "brewery_id":14167
+                           },
+                           "user_link":"https:\/\/untappd.com\/brewery\/14167"
+                        },
+                        "like_id":434567028,
+                        "like_owner":true,
+                        "created_at":"Mon, 23 Oct 2017 18:57:05 +0000"
+                     }
+                  ]
+               },
+               "media":{  
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for iPhone - (V2)",
+                  "app_website":"http:\/\/untpd.it\/iphoneapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               }
+            },
+            {  
+               "checkin_id":518734326,
+               "created_at":"Sun, 22 Oct 2017 21:41:08 +0000",
+               "checkin_comment":"",
+               "rating_score":4,
+               "user":{  
+                  "uid":3588604,
+                  "user_name":"brewpop26",
+                  "first_name":"steve",
+                  "last_name":"t.",
+                  "location":"",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/gravatar.com\/avatar\/b86eaaf10a31e57c521797a63afd86ed?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":2033567,
+                  "beer_name":"Nighthawk",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                  "beer_abv":4.7,
+                  "beer_ibu":0,
+                  "beer_slug":"enegren-brewing-company-nighthawk",
+                  "beer_description":"Nighthawk,  our traditional Schwarzbier  (black lager) smells of earthy dark roasted coffee and tastes of rich extra dark chocolate. A perfect light beer during the summer for the dark beer lover.",
+                  "beer_style":"Schwarzbier",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":{  
+                  "venue_id":4189068,
+                  "venue_name":"Enegren Brewing Co.",
+                  "venue_slug":"enegren-brewing-co",
+                  "primary_category":null,
+                  "parent_category_id":null,
+                  "categories":{  
+                     "count":0,
+                     "items":[  
+
+                     ]
+                  },
+                  "location":{  
+                     "venue_address":"",
+                     "venue_city":"Moorpark",
+                     "venue_state":"CA",
+                     "venue_country":"United States",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "contact":{  
+                     "twitter":"",
+                     "venue_url":""
+                  },
+                  "foursquare":{  
+                     "foursquare_id":"54f6b652498e5617cf66d7c4",
+                     "foursquare_url":"http:\/\/4sq.com\/1RURFqW"
+                  },
+                  "venue_icon":{  
+                     "sm":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_64.png",
+                     "md":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_88.png",
+                     "lg":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_88.png"
+                  },
+                  "is_verified":false
+               },
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":1,
+                  "count":1,
+                  "auth_toast":true,
+                  "items":[  
+                     {  
+                        "uid":116294,
+                        "user":{  
+                           "uid":116294,
+                           "user_name":"EnegrenBrewing",
+                           "first_name":"Enegren Brewing Company",
+                           "last_name":"",
+                           "bio":"",
+                           "location":"",
+                           "user_avatar":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                           "account_type":"brewery",
+                           "venue_details":[  
+
+                           ],
+                           "brewery_details":{  
+                              "brewery_id":14167
+                           },
+                           "user_link":"https:\/\/untappd.com\/brewery\/14167"
+                        },
+                        "like_id":434567040,
+                        "like_owner":true,
+                        "created_at":"Mon, 23 Oct 2017 18:57:06 +0000"
+                     }
+                  ]
+               },
+               "media":{  
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for iPhone - (V2)",
+                  "app_website":"http:\/\/untpd.it\/iphoneapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               }
+            },
+            {  
+               "checkin_id":518733529,
+               "created_at":"Sun, 22 Oct 2017 21:39:42 +0000",
+               "checkin_comment":"",
+               "rating_score":2.5,
+               "user":{  
+                  "uid":3588604,
+                  "user_name":"brewpop26",
+                  "first_name":"steve",
+                  "last_name":"t.",
+                  "location":"",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/gravatar.com\/avatar\/b86eaaf10a31e57c521797a63afd86ed?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":1125653,
+                  "beer_name":"Schoner Tag",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                  "beer_abv":4.7,
+                  "beer_ibu":14,
+                  "beer_slug":"enegren-brewing-company-schoner-tag",
+                  "beer_description":"Schoner Tag, which means 'Beautiful Day' in German, is a traditional Bavarian-style hefeweizen. Brewed with over 50% malted wheat, the beer is cloudy from the higher proteins in wheat. The signature flavor in this beer is the banana and clove flavors produced from the yeast fermentation.",
+                  "beer_style":"Hefeweizen",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":{  
+                  "venue_id":4189068,
+                  "venue_name":"Enegren Brewing Co.",
+                  "venue_slug":"enegren-brewing-co",
+                  "primary_category":null,
+                  "parent_category_id":null,
+                  "categories":{  
+                     "count":0,
+                     "items":[  
+
+                     ]
+                  },
+                  "location":{  
+                     "venue_address":"",
+                     "venue_city":"Moorpark",
+                     "venue_state":"CA",
+                     "venue_country":"United States",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "contact":{  
+                     "twitter":"",
+                     "venue_url":""
+                  },
+                  "foursquare":{  
+                     "foursquare_id":"54f6b652498e5617cf66d7c4",
+                     "foursquare_url":"http:\/\/4sq.com\/1RURFqW"
+                  },
+                  "venue_icon":{  
+                     "sm":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_64.png",
+                     "md":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_88.png",
+                     "lg":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_88.png"
+                  },
+                  "is_verified":false
+               },
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":1,
+                  "count":1,
+                  "auth_toast":true,
+                  "items":[  
+                     {  
+                        "uid":116294,
+                        "user":{  
+                           "uid":116294,
+                           "user_name":"EnegrenBrewing",
+                           "first_name":"Enegren Brewing Company",
+                           "last_name":"",
+                           "bio":"",
+                           "location":"",
+                           "user_avatar":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                           "account_type":"brewery",
+                           "venue_details":[  
+
+                           ],
+                           "brewery_details":{  
+                              "brewery_id":14167
+                           },
+                           "user_link":"https:\/\/untappd.com\/brewery\/14167"
+                        },
+                        "like_id":434567061,
+                        "like_owner":true,
+                        "created_at":"Mon, 23 Oct 2017 18:57:11 +0000"
+                     }
+                  ]
+               },
+               "media":{  
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for iPhone - (V2)",
+                  "app_website":"http:\/\/untpd.it\/iphoneapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":1,
+                  "items":[  
+                     {  
+                        "badge_id":5966,
+                        "user_badge_id":261835276,
+                        "badge_name":"Riding Steady (Level 4)",
+                        "badge_description":"Want to enjoy a day of brews, but need to keep your wits sharp? There are plenty of delicious brews under 5% for you to sip on throughout the day. That's 20 different beers with an ABV of 5% and lower. Try 5 more for Level 5!",
+                        "created_at":"Sun, 22 Oct 2017 21:39:42 +0000",
+                        "badge_image":{  
+                           "sm":"https:\/\/untappd.akamaized.net\/badges\/bdg_RidingSteady_sm.jpg",
+                           "md":"https:\/\/untappd.akamaized.net\/badges\/bdg_RidingSteady_md.jpg",
+                           "lg":"https:\/\/untappd.akamaized.net\/badges\/bdg_RidingSteady_lg.jpg"
+                        }
+                     }
+                  ]
+               }
+            },
+            {  
+               "checkin_id":518732765,
+               "created_at":"Sun, 22 Oct 2017 21:38:17 +0000",
+               "checkin_comment":"",
+               "rating_score":3.75,
+               "user":{  
+                  "uid":3588604,
+                  "user_name":"brewpop26",
+                  "first_name":"steve",
+                  "last_name":"t.",
+                  "location":"",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/gravatar.com\/avatar\/b86eaaf10a31e57c521797a63afd86ed?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":1564340,
+                  "beer_name":"The Lightest One",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/beer_logos\/beer-1564340_1da0d_sm.jpeg",
+                  "beer_abv":5,
+                  "beer_ibu":21,
+                  "beer_slug":"enegren-brewing-company-the-lightest-one",
+                  "beer_description":"The Lightest One is a 5.0% ABV German-Style Helles Lager. Helles, German for bright, is a crisp, clean, German lager with a touch of hops. For more information on the style, check out the German Beer Institute.\n\nNot only do we love flavorful, easy drinking lagers like this - but now when anyone comes to the brewery and asks us for \"our lightest beer\" we have a quick answer. So, whether you're new to craft beer and are used to beers on the lighter side, or you are just looking for a full-flavored light and refreshing beer, this beer is for you!",
+                  "beer_style":"Lager - Helles",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":{  
+                  "venue_id":4189068,
+                  "venue_name":"Enegren Brewing Co.",
+                  "venue_slug":"enegren-brewing-co",
+                  "primary_category":null,
+                  "parent_category_id":null,
+                  "categories":{  
+                     "count":0,
+                     "items":[  
+
+                     ]
+                  },
+                  "location":{  
+                     "venue_address":"",
+                     "venue_city":"Moorpark",
+                     "venue_state":"CA",
+                     "venue_country":"United States",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "contact":{  
+                     "twitter":"",
+                     "venue_url":""
+                  },
+                  "foursquare":{  
+                     "foursquare_id":"54f6b652498e5617cf66d7c4",
+                     "foursquare_url":"http:\/\/4sq.com\/1RURFqW"
+                  },
+                  "venue_icon":{  
+                     "sm":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_64.png",
+                     "md":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_88.png",
+                     "lg":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_88.png"
+                  },
+                  "is_verified":false
+               },
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":0,
+                  "count":0,
+                  "auth_toast":false,
+                  "items":[  
+
+                  ]
+               },
+               "media":{  
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for iPhone - (V2)",
+                  "app_website":"http:\/\/untpd.it\/iphoneapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":1,
+                  "items":[  
+                     {  
+                        "badge_id":2010,
+                        "user_badge_id":261834505,
+                        "badge_name":"Land of the Free  (Level 24)",
+                        "badge_description":"You’ve pledged allegiance, and now it’s time to enjoy some beer! Now remember, not all American beer is fizzy and yellow. That’s 120 different beers from a brewery in the United States. Try 5 more for Level 25.",
+                        "created_at":"Sun, 22 Oct 2017 21:38:17 +0000",
+                        "badge_image":{  
+                           "sm":"https:\/\/untappd.akamaized.net\/badges\/bdg_america_sm.jpg",
+                           "md":"https:\/\/untappd.akamaized.net\/badges\/bdg_america_md.jpg",
+                           "lg":"https:\/\/untappd.akamaized.net\/badges\/bdg_america_lg.jpg"
+                        }
+                     }
+                  ]
+               }
+            },
+            {  
+               "checkin_id":518729928,
+               "created_at":"Sun, 22 Oct 2017 21:33:22 +0000",
+               "checkin_comment":"",
+               "rating_score":4,
+               "user":{  
+                  "uid":3588604,
+                  "user_name":"brewpop26",
+                  "first_name":"steve",
+                  "last_name":"t.",
+                  "location":"",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/gravatar.com\/avatar\/b86eaaf10a31e57c521797a63afd86ed?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":1933762,
+                  "beer_name":"Enegren IPA",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                  "beer_abv":6.8,
+                  "beer_ibu":67,
+                  "beer_slug":"enegren-brewing-company-enegren-ipa",
+                  "beer_description":"",
+                  "beer_style":"IPA - American",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":{  
+                  "venue_id":4189068,
+                  "venue_name":"Enegren Brewing Co.",
+                  "venue_slug":"enegren-brewing-co",
+                  "primary_category":null,
+                  "parent_category_id":null,
+                  "categories":{  
+                     "count":0,
+                     "items":[  
+
+                     ]
+                  },
+                  "location":{  
+                     "venue_address":"",
+                     "venue_city":"Moorpark",
+                     "venue_state":"CA",
+                     "venue_country":"United States",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "contact":{  
+                     "twitter":"",
+                     "venue_url":""
+                  },
+                  "foursquare":{  
+                     "foursquare_id":"54f6b652498e5617cf66d7c4",
+                     "foursquare_url":"http:\/\/4sq.com\/1RURFqW"
+                  },
+                  "venue_icon":{  
+                     "sm":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_64.png",
+                     "md":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_88.png",
+                     "lg":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_88.png"
+                  },
+                  "is_verified":false
+               },
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":0,
+                  "count":0,
+                  "auth_toast":false,
+                  "items":[  
+
+                  ]
+               },
+               "media":{  
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for iPhone - (V2)",
+                  "app_website":"http:\/\/untpd.it\/iphoneapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":1,
+                  "items":[  
+                     {  
+                        "badge_id":34707,
+                        "user_badge_id":261831043,
+                        "badge_name":"Middle of the Road (Level 3)",
+                        "badge_description":"Looking for more kick than a session beer, but want to be able to stay for a few rounds? You have to keep it in the middle. That's 15 beers with an ABV greater than 5% and less than 10%. Try 5 more Level 4!",
+                        "created_at":"Sun, 22 Oct 2017 21:33:23 +0000",
+                        "badge_image":{  
+                           "sm":"https:\/\/untappd.akamaized.net\/badges\/bdg_middle-of-the-road_sm.jpg",
+                           "md":"https:\/\/untappd.akamaized.net\/badges\/bdg_middle-of-the-road_md.jpg",
+                           "lg":"https:\/\/untappd.akamaized.net\/badges\/bdg_middle-of-the-road_lg.jpg"
+                        }
+                     }
+                  ]
+               }
+            },
+            {  
+               "checkin_id":518728567,
+               "created_at":"Sun, 22 Oct 2017 21:31:00 +0000",
+               "checkin_comment":"",
+               "rating_score":3.75,
+               "user":{  
+                  "uid":3588604,
+                  "user_name":"brewpop26",
+                  "first_name":"steve",
+                  "last_name":"t.",
+                  "location":"",
+                  "url":"",
+                  "is_supporter":0,
+                  "is_moderator":0,
+                  "bio":"",
+                  "relationship":"follow",
+                  "user_avatar":"https:\/\/gravatar.com\/avatar\/b86eaaf10a31e57c521797a63afd86ed?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+                  "is_private":0
+               },
+               "beer":{  
+                  "bid":1102707,
+                  "beer_name":"Lagertha Pilsner",
+                  "beer_label":"https:\/\/untappd.akamaized.net\/site\/assets\/images\/temp\/badge-beer-default.png",
+                  "beer_abv":5,
+                  "beer_ibu":45,
+                  "beer_slug":"enegren-brewing-company-lagertha-pilsner",
+                  "beer_description":"Lagertha Pilsner is named after our brewery - which is named after a Viking shieldmaiden. The name was bestowed upon this beer because this was our first flawless brew day.\r\n\r\nBrewed with German Pilsner malt and Saaz & Mosaic hops - this clean crisp and refreshing lager is one of our favorites!",
+                  "beer_style":"Pilsner - Czech",
+                  "has_had":false,
+                  "beer_active":1,
+                  "auth_rating":0,
+                  "wish_list":false
+               },
+               "brewery":{  
+                  "brewery_id":14167,
+                  "brewery_name":"Enegren Brewing Company",
+                  "brewery_slug":"enegren-brewing-company",
+                  "brewery_label":"https:\/\/untappd.akamaized.net\/site\/brewery_logos\/brewery-14167_c0bb9.jpeg",
+                  "country_name":"United States",
+                  "contact":{  
+                     "twitter":"EnegrenBrewing",
+                     "facebook":"https:\/\/www.facebook.com\/enegrenbrewing",
+                     "url":"http:\/\/www.enegrenbrewing.com"
+                  },
+                  "location":{  
+                     "brewery_city":"Moorpark",
+                     "brewery_state":"CA",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "brewery_active":1
+               },
+               "venue":{  
+                  "venue_id":4189068,
+                  "venue_name":"Enegren Brewing Co.",
+                  "venue_slug":"enegren-brewing-co",
+                  "primary_category":null,
+                  "parent_category_id":null,
+                  "categories":{  
+                     "count":0,
+                     "items":[  
+
+                     ]
+                  },
+                  "location":{  
+                     "venue_address":"",
+                     "venue_city":"Moorpark",
+                     "venue_state":"CA",
+                     "venue_country":"United States",
+                     "lat":34.2831,
+                     "lng":-118.871
+                  },
+                  "contact":{  
+                     "twitter":"",
+                     "venue_url":""
+                  },
+                  "foursquare":{  
+                     "foursquare_id":"54f6b652498e5617cf66d7c4",
+                     "foursquare_url":"http:\/\/4sq.com\/1RURFqW"
+                  },
+                  "venue_icon":{  
+                     "sm":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_64.png",
+                     "md":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_88.png",
+                     "lg":"https:\/\/foursquare.com\/img\/categories_v2\/none_bg_88.png"
+                  },
+                  "is_verified":false
+               },
+               "comments":{  
+                  "total_count":0,
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "toasts":{  
+                  "total_count":0,
+                  "count":0,
+                  "auth_toast":false,
+                  "items":[  
+
+                  ]
+               },
+               "media":{  
+                  "count":0,
+                  "items":[  
+
+                  ]
+               },
+               "source":{  
+                  "app_name":"Untappd for iPhone - (V2)",
+                  "app_website":"http:\/\/untpd.it\/iphoneapp"
+               },
+               "badges":{  
+                  "retro_status":false,
+                  "count":3,
+                  "items":[  
+                     {  
+                        "badge_id":133556,
+                        "user_badge_id":261829472,
+                        "badge_name":"Untappd 7th Anniversary",
+                        "badge_description":"Another year of drinking socially down. Thank you for continuing to discover new beer, venues, and of course checking in. Cheers to seven years!",
+                        "created_at":"Sun, 22 Oct 2017 21:31:01 +0000",
+                        "badge_image":{  
+                           "sm":"https:\/\/untappd.akamaized.net\/badges\/bdg_SevenYearAnniv_sm.jpg",
+                           "md":"https:\/\/untappd.akamaized.net\/badges\/bdg_SevenYearAnniv_md.jpg",
+                           "lg":"https:\/\/untappd.akamaized.net\/badges\/bdg_SevenYearAnniv_lg.jpg"
+                        }
+                     },
+                     {  
+                        "badge_id":123544,
+                        "user_badge_id":261829473,
+                        "badge_name":"500 Million Beers",
+                        "badge_description":"Join us as we raise a toast to over 500 million beers checked in on Untappd! We couldn't have reached this astounding milestone without the help of you, so thank you and cheers to 500 million more!",
+                        "created_at":"Sun, 22 Oct 2017 21:31:01 +0000",
+                        "badge_image":{  
+                           "sm":"https:\/\/untappd.akamaized.net\/badges\/bdg_500mCheckins_sm.jpg",
+                           "md":"https:\/\/untappd.akamaized.net\/badges\/bdg_500mCheckins_md.jpg",
+                           "lg":"https:\/\/untappd.akamaized.net\/badges\/bdg_500mCheckins_lg.jpg"
+                        }
+                     },
+                     {  
+                        "badge_id":414,
+                        "user_badge_id":261829476,
+                        "badge_name":"Crisp as Day",
+                        "badge_description":"Light and crisp, a Pilsner is all you need to make your day great. Though, perhaps another one would make it even better. That’s 5 different Pilsners. Try 5 more to unlock Level 2",
+                        "created_at":"Sun, 22 Oct 2017 21:31:01 +0000",
+                        "badge_image":{  
+                           "sm":"https:\/\/untappd.akamaized.net\/badges\/bdg_pilsner_lg.jpg",
+                           "md":"https:\/\/untappd.akamaized.net\/badges\/bdg_pilsner_lg.jpg",
+                           "lg":"https:\/\/untappd.akamaized.net\/badges\/bdg_pilsner_lg.jpg"
+                        }
+                     }
+                  ]
+               }
+            }
+         ]
+      }
+   }
+}

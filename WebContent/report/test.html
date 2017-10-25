@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="/untappedBreweryProject/report/custom.css" type="text/css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.js"></script>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		
+		<!--
+		<script src="/untappedBreweryProject/webjars/chartjs/2.5.0/dist/Chart.bundle.js"></script> 
+		<script src="/untappedBreweryProject/webjars/jquery/2.1.4/jquery.js"></script>
+		-->
+		
+		<script src="/untappedBreweryProject/javascripts/classes.js"></script>
+		
+		
+		<!-- Include Required Prerequisites (date range picker -->
+		<script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
+		<script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+		
+		 
+		<!-- Include Date Range Picker -->
+		<script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
+				
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>	
+		
+		
+		<title>breweryreport</title>
+	</head>
+	<body>
+		<div id="constraint5">
+			<div class="form-group row" id="constraint5base">
+				<div class="form-group">
+					<label for="example-text-input" class="col-2 col-form-label">constraint</label>
+				</div>
+				<div class="form-group">
+					<select class ="form-control" id ="constraint5quality">
+						<option>Lat</option>
+						<option>Long</option>
+						<option>BeerName</option>
+						<option>BeerStyle</option>
+						<option>BreweryName</option>
+						<option>numCheckins</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<select class ="form-control" id ="constraint5equality">
+						<option>Greater Than</option>
+						<option>Less Than</option>
+						<option>Equal</option>
+						<option>Not</option>
+						<option>Contain</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<input class ="form-control" type="search" value ="0" id ="constraint5value">
+				</div>
+			</div>
+			<div class="form-group row" id="constraint5logic3">
+				<div class="form-group">
+					<select class ="form-control" id ="constraint5logic3type">
+						<option>AND</option>	
+						<option>OR</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<select class ="form-control" id ="constraint5logic3quality">
+						<option>Lat</option>
+						<option>Long</option>
+						<option>BeerName</option>
+						<option>BreweryName</option>
+						<option>BeerStyle</option>
+						<option>numCheckins</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<select class ="form-control" id ="constraint5logic3equality">
+						<option>Greater Than</option>
+						<option>Less Than</option>
+						<option>Equal</option>
+						<option>Not</option>
+						<option>Contain</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<input class ="form-control" type="search" value ="0" id ="constraint5logic3value">
+				</div>
+				<div class="form-group">
+					<input class="btn btn-primary" type="button" value="Remove Logic" id="constraint5logic3remove" data-id="5">
+				</div>
+			</div>
+			<div class="form-group row" id="constraint5baseButtons">
+				<div class="form-group">
+					<input class="btn btn-primary" type="button" value="Add Logic" id="constraint5addLogic" data-id="5">
+				</div>
+				<div class="form-group"> 
+					<input class="btn btn-primary" type="button" value="Remove Constraint" id="constraint5remove" data-id="5">
+				</div>
+				
+			</div>
+		</div>
+		<script src="/untappedBreweryProject/javascripts/breweryreport.js"></script>
+	</body>
+	
+</html>

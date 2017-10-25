@@ -27,7 +27,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>	
 		
 		
-		<title>Report 1</title>
+		<title>breweryreport</title>
 	</head>
 	<body>
 
@@ -69,31 +69,6 @@
         	</div>
  		</div>
  		<div class="container">
-	 		<div class="form-group row">
-				<label for="example-text-input" class="col-2 col-form-label">Brewery Search Input:</label>
-				<div class="form-group">
-    				<input class="form-control" type="search" value="Enegren" id="brewerySearchInput">
-				</div>
-				
-				<div class="form-group">
-					<input class="btn btn-primary form-control" type="button" value="Find Brewery" id="findBreweryButton">
-				</div>		
-			</div>
-		</div>
-		
-		<div class="container">
-	 		<div class="form-group row">
-	 			<label for="example-text-input" class="col-2 col-form-label"> Search Results </label>
-	 			<div class="form-group">
-					<select class="form-control" id="brewerySearchSelect">
-				    </select>
-				</div>
-				<div class="form-group">
-					<input class="btn btn-primary form-control" type="button" value="Add Brewery" id="addBreweryButton">
-				</div>		
-			</div>
-		</div>
- 		<div class="container">
  			<div class="form-group row">
  				<label for="example-text-input" class="col-2 col-form-label">Select a Date Range: </label>
 	 			<div id="reportrange" class="form-group" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc;">
@@ -131,74 +106,73 @@
 				</script>
 			</div>
 		</div>
+ 		<div class="container">
+	 		<div class="form-group row">
+				<label for="example-text-input" class="col-2 col-form-label">Brewery Search Input:</label>
+				<div class="form-group">
+    				<input class="form-control" type="search" value="Enegren" id="brewerySearchInput">
+				</div>
+				
+				<div class="form-group">
+					<input class="btn btn-primary form-control" type="button" value="Find Brewery" id="findBreweryButton">
+				</div>		
+			</div>
+		</div>
 		
 		<div class="container">
 	 		<div class="form-group row">
-				<label for="example-text-input" class="col-2 col-form-label">Select Brewery:</label>
-				<div class="form-group">
-					<select class="form-control" id="brewerySelect">
+	 			<label for="example-text-input" class="col-2 col-form-label"> Search Results </label>
+	 			<div class="form-group">
+					<select class="form-control" id="brewerySearchSelect">
 				    </select>
 				</div>
 				<div class="form-group">
-					<input class="btn btn-primary" type="button" value="Refresh Beer List" id="refreshBeerList">
-				</div>
+					<input class="btn btn-primary form-control" type="button" value="Add Brewery" id="addBreweryButton">
+				</div>		
 			</div>
 		</div>
-		<div class="container" id = beerRows>
+		
+		<div class="container" id = breweryRows>
+		</div>
+		
+		<div class="container">
 			<div class="form-group row">
-				<label for="example-text-input" class="col-2 col-form-label">Beer:</label>
+				<label for="example-text-input" class="col-2 col-form-label">Y Axis:</label>
 				<div class="form-group">
-					<select class="form-control beer" id="beerSelect">
-				    </select>
+					<select class ="form-control" id ="yAxis">
+						<option>Beer Rating</option>
+						<option>numCheckins</option>
+						<option>numLocations</option>
+						<option>numBeers</option>
+						<option>numStyles</option>
+					</select>
 				</div>
-				
 			</div>
-			
+			<div class="form-group row">
+				<label for="example-text-input" class="col-2 col-form-label">X Axis:</label>
+				<div class="form-group">
+					<select class ="form-control" id ="xAxis">
+						<option>Location</option>
+						<option>BeerStyle</option>
+					</select>
+				</div>
+			</div>
 		</div>
 		<div class="container">
-			<input class="btn btn-primary" type="button" value="Add Beer" id="addBeer">
-			<input class="btn btn-primary" type="button" value="Remove Beer" id="removeBeer">
+			<input class="btn btn-primary" type="button" value="Add Constraint" id="addConstraint">
 			<input class="btn btn-primary" type="button" value="Submit" id="submit">
 			<input class="btn btn-primary" type="button" value="Save Data" id="save">
 			<input class="btn btn-primary" type="button" value="Refresh Beer Activity" id="refreshActivity">
 		</div>
-		<div class="container" role = "tabpanel">
-			<ul class="nav nav-tabs" id="myTab" role="tablist">
-  				<li class="nav-item">
-    				<a class="nav-link active" id = "graph1Tab" data-toggle="tab" href="#graph1" role="tab" aria-controls="graph1">Graph1</a>
- 				</li>
-  				<li class="nav-item">
-    				<a class="nav-link" id = "graph2Tab" data-toggle="tab" href="#graph2" role="tab" aria-controls="graph2">Graph2</a>
-  				</li>
-  				<li class="nav-item">
-    				<a class="nav-link" id = "graph3Tab" data-toggle="tab" href="#graph3" role="tab" aria-controls="graph3">Graph3</a>
-  				</li>
-  				<li class="nav-item">
-    				<a class="nav-link" id = "graph4Tab" data-toggle="tab" href="#graph4" role="tab" aria-controls="graph4">Graph4</a>
-  				</li>
-			</ul>
-			<!-- Tab panes -->
-			<div class="tab-content" id="myTabContent">
-				<div role="tabpanel" class="tab-pane fade show active" id="graph1" aria-labelledby="graph1Tab">
-					<canvas id="chart1" width="400" height="200"></canvas>
-				</div>
-				<div role="tabpanel" class="tab-pane fade" id="graph2" aria-labelledby="graph2Tab">
-					<canvas id="chart2" width="400" height="200"></canvas>
-				</div>
-				<div role="tabpanel" class="tab-pane fade" id="graph3" aria-labelledby="graph3Tab">
-					<canvas id="chart3" width="400" height="200"></canvas>
-				</div>
-				<div role="tabpanel" class="tab-pane fade" id="graph4" aria-labelledby="graph4Tab">
-					<canvas id="chart4" width="400" height="200"></canvas>
-				</div>
-			</div>
+		<div class="container" id = constraintRows> 
 		</div>
  		<div class="container">
-			
+			<canvas id="chart1" width="400" height="200"></canvas>
 		</div>
+		
 		<p id = happy>happy</p>
 		
-		<script src="/untappedBreweryProject/javascripts/readData.js"></script>
+		<script src="/untappedBreweryProject/javascripts/breweryreport.js"></script>
 	</body>
 	
 </html>
